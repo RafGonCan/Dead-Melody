@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class mono : MonoBehaviour
+public class PlayerPosition : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -8,9 +8,10 @@ public class mono : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public Vector2 playerPos;
+
+    public void Update()
     {
-        
+        playerPos = gameObject.transform.position;
     }
 }
