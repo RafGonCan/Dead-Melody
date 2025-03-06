@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using OkapiKit;
 using Unity.Collections;
 using Unity.VisualScripting.ReorderableList;
 using UnityEngine;
@@ -7,17 +8,19 @@ using UnityEngine.UIElements;
 public class Door : MonoBehaviour
 {
     private Animator _animator;
+
+    //Getting player position
     private Transform playerTransform;
 
+
+    //Getting collider from door
     private BoxCollider2D collider;
 
     public float distanceThreshold = 5f;
-    private bool isPlayerInRange = false;
-
-
 
     private void Start()
     {
+        //Variable that connects the player position to the door
         GameObject player = GameObject.FindWithTag("Player");
         if (player != null)
         {
@@ -27,27 +30,44 @@ public class Door : MonoBehaviour
         _animator = GetComponent<Animator>();
 
         collider = GetComponent<BoxCollider2D>();
-        
     }
 
     Vector2 defaultScale;
-
 
     private void Update()
     {
         if (playerTransform != null)
         {
 
+
             float distanceToPlayer = Vector2.Distance(playerTransform.position, transform.position);
 
 
+            //If the player is lees then a given distance from the door the door will open if not the door will stay closed
             if (distanceToPlayer < distanceThreshold)
             {
+
                 if (Input.GetKey(KeyCode.C))
+
                 {
                     Vector2 scale = defaultScale;
                     scale.x = scale.x * 3.0f;
-                    collider.enabled=false;
+
+                    collider.enabled = false;
+
+                    _animator.SetTrigger("DoorTrigger");
+                    var a = _animator.GetCurrentAnimatorStateInfo(0);
+
+                    //if (a.IsName("Door open")== true)
+                    //{
+                    //}
+
+                    if (a.IsName("Door idle open") == true)
+                    {
+
+                        collider.enabled = true;
+
+                    }
                 }
             }
         }

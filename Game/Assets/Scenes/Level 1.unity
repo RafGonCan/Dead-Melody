@@ -1000,14 +1000,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Switches to scene Level 1
+  _explanation: Switches to scene Level 3
   description: 
   enableAction: 1
   hasTags: 0
   actionTags: []
   hasConditions: 0
   actionConditions: []
-  sceneName: Level 1
+  sceneName: Level 3
 --- !u!114 &784092447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1021,7 +1021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: "When key Escape is pressed:\n          switches to scene Samples\n"
+  _explanation: "When key Escape is pressed:\n          switches to scene Level 1\n"
   description: 
   enableTrigger: 1
   allowRetrigger: 1
@@ -12398,11 +12398,6 @@ MonoBehaviour:
   description: 
   hypertags:
   - {fileID: 11400000, guid: 15edcc3cfa00a4e2fba5f80bcf8774c8, type: 2}
---- !u!4 &1187646285 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1357490122717677714, guid: 4de900156faeac14f8e84f07ce0bf980, type: 3}
-  m_PrefabInstance: {fileID: 6567642186912351925}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1378518351
 GameObject:
   m_ObjectHideFlags: 0
@@ -19325,38 +19320,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1872103419
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1872103420}
-  m_Layer: 0
-  m_Name: Doors
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1872103420
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1872103419}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -412.3835, y: -79.009514, z: -1.627019}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1187646285}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1898470257
 GameObject:
   m_ObjectHideFlags: 0
@@ -19947,7 +19910,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1872103420}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1357490122717677714, guid: 4de900156faeac14f8e84f07ce0bf980, type: 3}
       propertyPath: m_LocalScale.x
@@ -19955,15 +19918,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1357490122717677714, guid: 4de900156faeac14f8e84f07ce0bf980, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 219.5
+      value: -192.88351
       objectReference: {fileID: 0}
     - target: {fileID: 1357490122717677714, guid: 4de900156faeac14f8e84f07ce0bf980, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -18
+      value: -97.009514
       objectReference: {fileID: 0}
     - target: {fileID: 1357490122717677714, guid: 4de900156faeac14f8e84f07ce0bf980, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2
+      value: 0.37298095
       objectReference: {fileID: 0}
     - target: {fileID: 1357490122717677714, guid: 4de900156faeac14f8e84f07ce0bf980, type: 3}
       propertyPath: m_LocalRotation.w
@@ -19971,15 +19934,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1357490122717677714, guid: 4de900156faeac14f8e84f07ce0bf980, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1357490122717677714, guid: 4de900156faeac14f8e84f07ce0bf980, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1357490122717677714, guid: 4de900156faeac14f8e84f07ce0bf980, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1357490122717677714, guid: 4de900156faeac14f8e84f07ce0bf980, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -20032,4 +19995,4 @@ SceneRoots:
   - {fileID: 743703788}
   - {fileID: 1832671717}
   - {fileID: 784092448}
-  - {fileID: 1872103420}
+  - {fileID: 6567642186912351925}
