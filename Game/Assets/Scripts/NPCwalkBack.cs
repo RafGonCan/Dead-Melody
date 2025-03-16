@@ -34,7 +34,7 @@ public class NPCwalkBack : MonoBehaviour
         float distanceToPlayer = Vector2.Distance(playerTransform.position, transform.position);
 
 
-        //If the player is lees then a given distance from the door the door will open if not the door will stay closed
+       
         if (distanceToPlayer < distanceThreshold)
         {
 

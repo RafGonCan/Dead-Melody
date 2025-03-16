@@ -1,3 +1,4 @@
+using System;
 using OkapiKit;
 using UnityEngine;
 
@@ -11,6 +12,10 @@ public class WalkBack : MonoBehaviour
 
 
     public float distanceThreshold = 5f;
+
+    public bool inputTrueJ = false;
+    public bool inputTrueK = false;
+    public bool inputTrueL = false;
 
     void Start()
     {
@@ -31,6 +36,7 @@ public class WalkBack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         float distanceToPlayer = Vector2.Distance(playerTransform.position, transform.position);
 
 
@@ -38,14 +44,18 @@ public class WalkBack : MonoBehaviour
         if (distanceToPlayer < distanceThreshold)
         {
 
-            if (Input.GetKey(KeyCode.C))
+            if (inputTrueJ == true && Input.GetKey(KeyCode.J) ||
+
+            inputTrueK == true && Input.GetKey(KeyCode.K) ||
+
+            inputTrueL == true && Input.GetKey(KeyCode.L))
 
             {
-                
+
                 collider.enabled = false;
 
                 _animator.SetTrigger("MoveTrigger");
-                
+
                 var a = _animator.GetCurrentAnimatorStateInfo(0);
 
                 if (a.IsName("MoveBack") == true)
