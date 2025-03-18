@@ -1768,14 +1768,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Switches to scene Level 4
+  _explanation: Switches to scene Cemetery
   description: 
   enableAction: 1
   hasTags: 0
   actionTags: []
   hasConditions: 0
   actionConditions: []
-  sceneName: Level 4
+  sceneName: Cemetery
 --- !u!114 &784092447
 MonoBehaviour:
   m_ObjectHideFlags: 0
