@@ -12942,14 +12942,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Switches to scene Level 4
+  _explanation: Switches to scene Station
   description: 
   enableAction: 1
   hasTags: 0
   actionTags: []
   hasConditions: 0
   actionConditions: []
-  sceneName: Level 4
+  sceneName: Station
 --- !u!114 &1738328233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12964,7 +12964,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _showInfo: 1
   _explanation: "When a collision with a trigger with tags [Player] starts:\n         
-    switches to scene Level 4\n"
+    switches to scene Station\n"
   description: 
   enableTrigger: 1
   allowRetrigger: 0
@@ -15264,14 +15264,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Switches to scene Level 4
+  _explanation: Switches to scene Cemetery Mirror
   description: 
   enableAction: 1
   hasTags: 0
   actionTags: []
   hasConditions: 0
   actionConditions: []
-  sceneName: Level 4
+  sceneName: Cemetery Mirror
 --- !u!114 &1898470260
 MonoBehaviour:
   m_ObjectHideFlags: 0
