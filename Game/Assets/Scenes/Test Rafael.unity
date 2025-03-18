@@ -189,6 +189,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
+      propertyPath: inputTrueA
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: inputTrueJ
       value: 1
       objectReference: {fileID: 0}
@@ -304,6 +308,10 @@ PrefabInstance:
     - target: {fileID: 656090046797353299, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
+      propertyPath: inputTrueD
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: inputTrueJ
@@ -799,6 +807,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
+      propertyPath: inputTrueA
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: inputTrueJ
       value: 1
       objectReference: {fileID: 0}
@@ -928,6 +940,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
+      propertyPath: inputTrueS
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: distanceThreshold
       value: 250
       objectReference: {fileID: 0}
@@ -1031,6 +1047,10 @@ PrefabInstance:
     - target: {fileID: 656090046797353299, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
+      propertyPath: inputTrueA
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: inputTrueJ
@@ -1148,6 +1168,10 @@ PrefabInstance:
     - target: {fileID: 656090046797353299, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
+      propertyPath: inputTrueA
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: inputTrueJ
@@ -1270,6 +1294,10 @@ PrefabInstance:
     - target: {fileID: 656090046797353299, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
+      propertyPath: inputTrueD
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: inputTrueJ
@@ -1540,14 +1568,14 @@ MonoBehaviour:
     horizontal speed is 250 units per second.
 
     Horizontal movement will be controlled
-    by the [Horizontal] axis.
+    by the [LeftArrow] and [RightArrow] keys.
 
-    Ground check is going to use collider GroundCheck,
-    the ground layer mask defines what is considered solid ground.
+    Ground check is going to use collider
+    GroundCheck, the ground layer mask defines what is considered solid ground.
 
-    When there''s
-    no solid ground below character, the character will start falling after 0,15s,
-    with a gravity scale of 2,2.
+    When
+    there''s no solid ground below character, the character will start falling after
+    0,15s, with a gravity scale of 2,2.
 
     The character''s trajectory can be modified
     mid-air.
@@ -1594,7 +1622,7 @@ MonoBehaviour:
   hasConditions: 0
   conditions: []
   speed: {x: 250, y: 500}
-  horizontalInputType: 0
+  horizontalInputType: 2
   horizontalAxis: Horizontal
   horizontalButtonPositive: Right
   horizontalButtonNegative: Left
@@ -2273,6 +2301,10 @@ PrefabInstance:
     - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: inputTrueL
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
+      propertyPath: inputTrueS
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: distanceThreshold
@@ -14765,6 +14797,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
+      propertyPath: inputTrueS
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: distanceThreshold
       value: 250
       objectReference: {fileID: 0}
@@ -15046,19 +15082,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Tutorial:
-
-
-    Movement: Left and Right Arrow Keys or A and D
-
-    Run:
-    Left Shift
-
-    Jump: Space
-
-    Ability: J or K or L
-
-    Restart: R'
+  m_text: "Tutorial:\n\nMovement: Left and Right Arrow Keys\nRun: Left Shift\nJump:
+    Space\nAbility:  A - Green\n\t   S - Blue\n\t   D - Red\nRestart: R"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -15202,6 +15227,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
+      propertyPath: inputTrueA
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: inputTrueJ
       value: 1
       objectReference: {fileID: 0}
@@ -15211,6 +15240,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: inputTrueL
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
+      propertyPath: inputTrueS
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
@@ -15317,6 +15350,10 @@ PrefabInstance:
     - target: {fileID: 656090046797353299, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
+      propertyPath: inputTrueA
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: inputTrueJ
@@ -15764,14 +15801,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Switches to scene Level 4
+  _explanation: Switches to scene Test Rafael
   description: 
   enableAction: 1
   hasTags: 0
   actionTags: []
   hasConditions: 0
   actionConditions: []
-  sceneName: Level 4
+  sceneName: Test Rafael
 --- !u!114 &1738328233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15951,8 +15988,12 @@ CompositeCollider2D:
         Y: 3840000000
       - X: -7680000000
         Y: -3840000000
-      - X: 19200000000
+      - X: 18560000000
         Y: -3840000000
+      - X: 18560000000
+        Y: -4480000000
+      - X: 19200000000
+        Y: -4480000000
     - - X: 15360000000
         Y: 1280000128
       - X: 14720000000
@@ -16001,61 +16042,81 @@ CompositeCollider2D:
         Y: -1920000128
       - X: 48000000000
         Y: -1920000128
-    - - X: 53120000000
-        Y: -2559999744
-      - X: 50560000000
-        Y: -2559999744
-      - X: 50560000000
-        Y: -3200000000
-      - X: 42880000000
-        Y: -3200000000
-      - X: 42880000000
-        Y: -2559999744
-      - X: 41600000000
-        Y: -2559999744
-      - X: 41600000000
-        Y: -3200000000
-      - X: 34560000000
-        Y: -3200000000
-      - X: 34560000000
-        Y: -1919999872
-      - X: 33280000000
-        Y: -1919999872
-      - X: 33280000000
-        Y: -2559999744
-      - X: 32640000000
-        Y: -2559999744
-      - X: 32640000000
-        Y: -3200000000
-      - X: 26880000000
-        Y: -3200000000
-      - X: 26880000000
+    - - X: 27520000000
         Y: -3840000000
+      - X: 52480000000
+        Y: -3840000000
+      - X: 52480000000
+        Y: -4480000000
       - X: 53120000000
-        Y: -3840000000
-    - - X: 24960000000
+        Y: -4480000000
+      - X: 53120000000
         Y: -2559999744
-      - X: 24320000000
+      - X: 50560000000
         Y: -2559999744
-      - X: 24320000000
+      - X: 50560000000
         Y: -3200000000
-      - X: 21760000000
+      - X: 42880000000
         Y: -3200000000
-      - X: 21760000000
+      - X: 42880000000
+        Y: -2559999744
+      - X: 41600000000
+        Y: -2559999744
+      - X: 41600000000
+        Y: -3200000000
+      - X: 34560000000
+        Y: -3200000000
+      - X: 34560000000
+        Y: -1919999872
+      - X: 33280000000
+        Y: -1919999872
+      - X: 33280000000
+        Y: -2559999744
+      - X: 32640000000
+        Y: -2559999744
+      - X: 32640000000
+        Y: -3200000000
+      - X: 26880000000
+        Y: -3200000000
+      - X: 26880000000
+        Y: -4480000000
+      - X: 27520000000
+        Y: -4480000000
+    - - X: 22400000000
         Y: -3840000000
+      - X: 24320000000
+        Y: -3840000000
+      - X: 24320000000
+        Y: -4480000000
       - X: 24960000000
-        Y: -3840000000
-    - - X: 62080000000
+        Y: -4480000000
+      - X: 24960000000
+        Y: -2559999744
+      - X: 24320000000
+        Y: -2559999744
+      - X: 24320000000
         Y: -3200000000
-      - X: 55680000000
+      - X: 21760000000
         Y: -3200000000
-      - X: 55680000000
+      - X: 21760000000
+        Y: -4480000000
+      - X: 22400000000
+        Y: -4480000000
+    - - X: 56320000000
         Y: -3840000000
       - X: 62080000000
         Y: -3840000000
+      - X: 62080000000
+        Y: -3200000000
+      - X: 55680000000
+        Y: -3200000000
+      - X: 55680000000
+        Y: -4480000000
+      - X: 56320000000
+        Y: -4480000000
   m_CompositePaths:
     m_Paths:
-    - - {x: 1920, y: -384}
+    - - {x: 1920, y: -448}
       - {x: 1920, y: -320}
       - {x: 1600, y: -319.99997}
       - {x: 1600, y: -255.99998}
@@ -16085,6 +16146,8 @@ CompositeCollider2D:
       - {x: -704.00006, y: 384}
       - {x: -768, y: 383.99997}
       - {x: -767.99994, y: -384}
+      - {x: 1856, y: -384.00003}
+      - {x: 1856, y: -448}
     - - {x: 1536, y: 63.99999}
       - {x: 1536, y: 128.00002}
       - {x: 1472, y: 128.00005}
@@ -16109,7 +16172,11 @@ CompositeCollider2D:
       - {x: 4288, y: -127.99999}
       - {x: 3648, y: -128.00002}
       - {x: 3648, y: -192.00002}
-    - - {x: 5312, y: -384}
+    - - {x: 2752, y: -448}
+      - {x: 2752, y: -384}
+      - {x: 5248, y: -384.00003}
+      - {x: 5248, y: -448}
+      - {x: 5312, y: -447.99994}
       - {x: 5312, y: -255.99998}
       - {x: 5056, y: -256}
       - {x: 5056, y: -320}
@@ -16124,21 +16191,27 @@ CompositeCollider2D:
       - {x: 3264, y: -256}
       - {x: 3264, y: -320}
       - {x: 2688, y: -320.00003}
-      - {x: 2688, y: -384}
+      - {x: 2688, y: -448}
     - - {x: -0.0000179, y: -256}
       - {x: -0.0000255, y: -191.99998}
       - {x: -64.000015, y: -192.00003}
       - {x: -63.99998, y: -256}
-    - - {x: 2496, y: -384}
+    - - {x: 2240, y: -448}
+      - {x: 2240, y: -384}
+      - {x: 2432, y: -384.00003}
+      - {x: 2432, y: -448}
+      - {x: 2496, y: -447.99994}
       - {x: 2496, y: -255.99998}
       - {x: 2432, y: -256}
       - {x: 2432, y: -320}
       - {x: 2176, y: -320.00003}
-      - {x: 2176, y: -384}
-    - - {x: 6208, y: -384}
+      - {x: 2176, y: -448}
+    - - {x: 5632, y: -448}
+      - {x: 5632, y: -384}
+      - {x: 6208, y: -383.99997}
       - {x: 6208, y: -320}
       - {x: 5568, y: -320.00003}
-      - {x: 5568, y: -384}
+      - {x: 5568, y: -448}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
   m_UseDelaunayMesh: 0
@@ -16269,6 +16342,66 @@ Tilemap:
   m_GameObject: {fileID: 1739021425}
   m_Enabled: 1
   m_Tiles:
+  - first: {x: 29, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 15
+      m_TileSpriteIndex: 15
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 34, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 15
+      m_TileSpriteIndex: 15
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 38, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 15
+      m_TileSpriteIndex: 15
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 42, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 15
+      m_TileSpriteIndex: 15
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 82, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 15
+      m_TileSpriteIndex: 15
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 87, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 15
+      m_TileSpriteIndex: 15
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -12, y: -6, z: 0}
     second:
       serializedVersion: 2
@@ -18101,7 +18234,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 180
+  - m_RefCount: 186
     m_Data: {fileID: 11400000, guid: d571222addb2f4c61bce982f00594616, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
@@ -18134,10 +18267,10 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 180
+  - m_RefCount: 186
     m_Data: {fileID: 21300000, guid: dce1da3fe3eee364d8f8788ab7740e2a, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 180
+  - m_RefCount: 186
     m_Data:
       e00: 1
       e01: 0
@@ -18210,7 +18343,7 @@ Tilemap:
       e32: 4.19e-43
       e33: 4.18e-43
   m_TileColorArray:
-  - m_RefCount: 180
+  - m_RefCount: 186
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -18318,6 +18451,10 @@ PrefabInstance:
     - target: {fileID: 656090046797353299, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
+      propertyPath: inputTrueA
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: inputTrueJ

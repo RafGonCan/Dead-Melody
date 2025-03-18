@@ -13,9 +13,9 @@ public class WalkBack : MonoBehaviour
 
     public float distanceThreshold = 5f;
 
-    public bool inputTrueJ = false;
-    public bool inputTrueK = false;
-    public bool inputTrueL = false;
+    public bool inputTrueA = false;
+    public bool inputTrueS = false;
+    public bool inputTrueD = false;
 
     void Start()
     {
@@ -44,11 +44,11 @@ public class WalkBack : MonoBehaviour
         if (distanceToPlayer < distanceThreshold)
         {
 
-            if (inputTrueJ == true && Input.GetKey(KeyCode.J) ||
+            if (inputTrueA == true && Input.GetKey(KeyCode.A) ||
 
-            inputTrueK == true && Input.GetKey(KeyCode.K) ||
+            inputTrueS == true && Input.GetKey(KeyCode.S) ||
 
-            inputTrueL == true && Input.GetKey(KeyCode.L))
+            inputTrueD == true && Input.GetKey(KeyCode.D))
 
             {
 
