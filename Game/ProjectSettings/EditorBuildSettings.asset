@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Level 4.unity
+    path: Assets/Scenes/Test Rafael.unity
     guid: 4acbd079cfddf8b4e812c66631f02a72
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
