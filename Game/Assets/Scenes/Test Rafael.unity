@@ -1540,14 +1540,14 @@ MonoBehaviour:
     horizontal speed is 250 units per second.
 
     Horizontal movement will be controlled
-    by the [LeftArrow] and [RightArrow] keys.
+    by the [Horizontal] axis.
 
-    Ground check is going to use collider
-    GroundCheck, the ground layer mask defines what is considered solid ground.
+    Ground check is going to use collider GroundCheck,
+    the ground layer mask defines what is considered solid ground.
 
-    When
-    there''s no solid ground below character, the character will start falling after
-    0,15s, with a gravity scale of 2,2.
+    When there''s
+    no solid ground below character, the character will start falling after 0,15s,
+    with a gravity scale of 2,2.
 
     The character''s trajectory can be modified
     mid-air.
@@ -1594,7 +1594,7 @@ MonoBehaviour:
   hasConditions: 0
   conditions: []
   speed: {x: 250, y: 500}
-  horizontalInputType: 2
+  horizontalInputType: 0
   horizontalAxis: Horizontal
   horizontalButtonPositive: Right
   horizontalButtonNegative: Left
