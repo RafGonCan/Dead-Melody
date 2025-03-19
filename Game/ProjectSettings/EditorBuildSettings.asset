@@ -6,7 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Level 4.unity
+    path: Assets/Scenes/Test Rafael.unity
     guid: 4acbd079cfddf8b4e812c66631f02a72
+  - enabled: 1
+    path: Assets/Scenes/Market.unity
+    guid: 5f4e27215161fd44991f2470d0e390fe
+  - enabled: 1
+    path: Assets/Scenes/Cemetery.unity
+    guid: 540d0cf8354462a4d980c032d4ec6e75
+  - enabled: 1
+    path: Assets/Scenes/Cemetery Mirror.unity
+    guid: 6affed55fdeb6db4095bc8c72bbd729a
+  - enabled: 1
+    path: Assets/Scenes/Station.unity
+    guid: 9616783dee8b1af429c7a628861c98ce
+  - enabled: 1
+    path: Assets/Scenes/Undergroung + City.unity
+    guid: ccd50914613e4104ebc1ddb70b171111
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
