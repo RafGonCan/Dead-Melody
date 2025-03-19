@@ -6,16 +6,17 @@ public class WalkBack : MonoBehaviour
 {
     private Transform playerTransform;
 
-    private Animator _animator;
 
     private CapsuleCollider2D collider;
 
-
     public float distanceThreshold = 5f;
+    private Animator _animator;
 
     public bool inputTrueJ = false;
     public bool inputTrueK = false;
     public bool inputTrueL = false;
+
+    public bool colliderEnable = false;
 
     void Start()
     {
@@ -44,21 +45,25 @@ public class WalkBack : MonoBehaviour
         if (distanceToPlayer < distanceThreshold)
         {
 
-            if (inputTrueJ == true && Input.GetKey(KeyCode.J) ||
+            if (inputTrueJ == true && Input.GetKeyDown(KeyCode.J) ||
 
-            inputTrueK == true && Input.GetKey(KeyCode.K) ||
+            inputTrueK == true && Input.GetKeyDown(KeyCode.K) ||
 
-            inputTrueL == true && Input.GetKey(KeyCode.L))
+            inputTrueL == true && Input.GetKeyDown(KeyCode.L))
 
             {
+                if (colliderEnable == true)
+                {
 
-                collider.enabled = false;
+                    collider.enabled = false;
 
+                }
+                
                 _animator.SetTrigger("MoveTrigger");
 
                 var a = _animator.GetCurrentAnimatorStateInfo(0);
 
-                if (a.IsName("MoveBack") == true)
+                if (a.IsName("MoveBack"))
                 {
 
                     collider.enabled = true;
