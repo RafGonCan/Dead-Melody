@@ -15,8 +15,7 @@ public class WalkBack : MonoBehaviour
     public bool inputTrueA = false;
     public bool inputTrueS = false;
     public bool inputTrueD = false;
-
-    public bool colliderEnable = false;
+    public bool colliderDisabled = false;
 
     void Start()
     {
@@ -41,26 +40,18 @@ public class WalkBack : MonoBehaviour
         float distanceToPlayer = Vector2.Distance(playerTransform.position, transform.position);
 
 
-        //If the player is lees then a given distance from the door the door will open if not the door will stay closed
+        //If the player is less then a given distance from the door the door will open if not the door will stay closed
         if (distanceToPlayer < distanceThreshold)
         {
 
-<<<<<<< HEAD
-            if (inputTrueJ == true && Input.GetKeyDown(KeyCode.J) ||
-
-            inputTrueK == true && Input.GetKeyDown(KeyCode.K) ||
-
-            inputTrueL == true && Input.GetKeyDown(KeyCode.L))
-=======
             if (inputTrueA == true && Input.GetKey(KeyCode.A) ||
 
             inputTrueS == true && Input.GetKey(KeyCode.S) ||
 
             inputTrueD == true && Input.GetKey(KeyCode.D))
->>>>>>> e8c1c61825d460fbdd8abd5e0198ae46769f2daf
 
             {
-                if (colliderEnable == true)
+                if (colliderDisabled == true)
                 {
 
                     collider.enabled = false;
