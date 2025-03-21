@@ -6,10 +6,10 @@ public class WalkBack : MonoBehaviour
 {
     private Transform playerTransform;
 
-
     private CapsuleCollider2D collider;
 
     public float distanceThreshold = 5f;
+
     private Animator _animator;
 
     public bool inputTrueA = false;
@@ -30,8 +30,6 @@ public class WalkBack : MonoBehaviour
 
         collider = GetComponent<CapsuleCollider2D>();
     }
-
-    Vector2 defaultScale;
 
     // Update is called once per frame
     void Update()
