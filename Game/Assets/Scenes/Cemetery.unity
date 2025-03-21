@@ -697,6 +697,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
+      propertyPath: colliderEnable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: distanceThreshold
       value: 250
       objectReference: {fileID: 0}

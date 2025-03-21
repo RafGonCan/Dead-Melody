@@ -6,15 +6,15 @@ public class WalkBack : MonoBehaviour
 {
     private Transform playerTransform;
 
-
     private CapsuleCollider2D collider;
 
     public float distanceThreshold = 5f;
+
     private Animator _animator;
 
-    public bool inputTrueA = false;
-    public bool inputTrueS = false;
-    public bool inputTrueD = false;
+    public bool inputTrueJ = false;
+    public bool inputTrueK = false;
+    public bool inputTrueL = false;
 
     public bool colliderEnable = false;
 
@@ -32,8 +32,6 @@ public class WalkBack : MonoBehaviour
         collider = GetComponent<CapsuleCollider2D>();
     }
 
-    Vector2 defaultScale;
-
     // Update is called once per frame
     void Update()
     {
@@ -45,19 +43,11 @@ public class WalkBack : MonoBehaviour
         if (distanceToPlayer < distanceThreshold)
         {
 
-<<<<<<< HEAD
             if (inputTrueJ == true && Input.GetKeyDown(KeyCode.J) ||
 
             inputTrueK == true && Input.GetKeyDown(KeyCode.K) ||
 
             inputTrueL == true && Input.GetKeyDown(KeyCode.L))
-=======
-            if (inputTrueA == true && Input.GetKey(KeyCode.A) ||
-
-            inputTrueS == true && Input.GetKey(KeyCode.S) ||
-
-            inputTrueD == true && Input.GetKey(KeyCode.D))
->>>>>>> e8c1c61825d460fbdd8abd5e0198ae46769f2daf
 
             {
                 if (colliderEnable == true)
