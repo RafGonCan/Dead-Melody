@@ -701,11 +701,7 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
-<<<<<<< HEAD
       propertyPath: colliderDisabled
-=======
-      propertyPath: colliderEnable
->>>>>>> fbbf3bbdd91b8581a6fa736be6676433e7f8c728
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3541934316321083608, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
