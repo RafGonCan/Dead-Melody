@@ -1632,14 +1632,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Switches to scene Level 4
+  _explanation: Switches to scene Test Rafael
   description: 
   enableAction: 1
   hasTags: 0
   actionTags: []
   hasConditions: 0
   actionConditions: []
-  sceneName: Level 4
+  sceneName: Test Rafael
 --- !u!114 &784092447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1653,7 +1653,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: "When key R is pressed:\n          switches to scene Level 4\n"
+  _explanation: "When key R is pressed:\n          switches to scene Market\n"
   description: 
   enableTrigger: 1
   allowRetrigger: 1
@@ -5378,8 +5378,16 @@ PrefabInstance:
       value: Grave
       objectReference: {fileID: 0}
     - target: {fileID: 3348203934211484840, guid: 8ff75ff5a09d3c443bfec90ac0695e32, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 3348203934211484840, guid: 8ff75ff5a09d3c443bfec90ac0695e32, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 3348203934211484840, guid: 8ff75ff5a09d3c443bfec90ac0695e32, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -351.7
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 3348203934211484840, guid: 8ff75ff5a09d3c443bfec90ac0695e32, type: 3}
       propertyPath: m_LocalPosition.y
