@@ -701,7 +701,7 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Platformer
-  metroPackageVersion: 
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -709,7 +709,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Platformer
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Platformer
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -778,11 +778,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 77b5930c-550f-4ce7-90e6-b4319635bb50
+  cloudProjectId: 5e6b6d8d-65a9-43a4-9f33-3cb72a01d069
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Platformer 2024-01-26_16-21-19
-  organizationId: ongaku
+  projectName: Game
+  organizationId: rafgoncan
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
