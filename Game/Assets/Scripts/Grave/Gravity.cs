@@ -9,7 +9,7 @@ public class Gravity : MonoBehaviour
     private Transform playerTransform;
 
     // The distance between the player and the grave to make the grave fall
-    public float distanceThreshold = 256f;
+    public float distanceThreshold = 150f;
 
     // The rigidbody of the grave object
     private Rigidbody2D grave;
