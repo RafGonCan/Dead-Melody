@@ -1,11 +1,12 @@
 using UnityEngine;
 
-public class Size : MonoBehaviour
+public class PlataformEnemy : MonoBehaviour
 {
+
     private Animator _animator;
     private Transform playerTransform;
-    public float distanceThreshold = 150f;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] private float distanceThreshold = 150f;
+
     void Start()
     {
         GameObject player = GameObject.FindWithTag("Player");
@@ -16,30 +17,26 @@ public class Size : MonoBehaviour
         _animator = GetComponent<Animator>();
     }
 
-    
+    public Vector2 PlataformEnemyPosition;
 
     // Update is called once per frame
     void Update()
     {
+        PlataformEnemyPosition = gameObject.transform.position;
+
         float distanceToPlayer = Vector2.Distance(playerTransform.position, transform.position);
+
         if (distanceToPlayer < distanceThreshold)
         {
-            if (Input.GetKey(KeyCode.S) && _animator.GetBool("Small") == false
-                && _animator.GetBool("Normal") == false)
+            if (Input.GetKeyDown(KeyCode.J) && _animator.GetBool("Small") == false)
             {
                 _animator.SetBool("Small", true);
             }
-            else if (Input.GetKey(KeyCode.S) && _animator.GetBool("Small") == true
-                && _animator.GetBool("Normal") == false)
+            else if (Input.GetKeyDown(KeyCode.J) && _animator.GetBool("Normal") == false)
             {
-                _animator.SetBool("Small", false);
                 _animator.SetBool("Normal", true);
             }
-            else
-            {
-                _animator.SetBool("Normal", false);
-                _animator.SetBool("Small", true);
-            }
+
         }
     }
 }
