@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: "After 15 seconds, trigger the actions::\n          spawns prefab
+  _explanation: "After 5 seconds, trigger the actions::\n          spawns prefab
     Tutorial txt at original position\n"
   description: 
   enableTrigger: 1
@@ -130,7 +130,7 @@ MonoBehaviour:
   startTriggered: 0
   initialDelayEnable: 1
   initialDelay: {x: 15, y: 15}
-  timeInterval: {x: 15, y: 15}
+  timeInterval: {x: 5, y: 5}
 --- !u!114 &-3737405657318484074
 MonoBehaviour:
   m_ObjectHideFlags: 0
