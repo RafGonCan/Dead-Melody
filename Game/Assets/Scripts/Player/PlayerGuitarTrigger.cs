@@ -2,15 +2,35 @@ using UnityEngine;
 
 public class PlayerGuitarTrigger : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private ParticleSystem rippleEffectPS;
+    public void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.A)) { GuitarPlayA(); }
+        if (Input.GetKeyDown(KeyCode.S)) { GuitarPlayS(); }
+        if (Input.GetKeyDown(KeyCode.D)) { GuitarPlayD(); }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void RippleEffect()
     {
-        
+        rippleEffectPS.Play();
+
+        return;
+    }
+
+
+    private void GuitarPlayA()
+    {
+        RippleEffect();
+        return;
+    }
+    private void GuitarPlayS()
+    {
+        RippleEffect();
+        return;
+    }
+    private void GuitarPlayD()
+    {
+        RippleEffect();
+        return;
     }
 }
