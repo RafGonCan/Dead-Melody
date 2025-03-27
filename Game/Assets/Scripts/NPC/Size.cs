@@ -4,7 +4,8 @@ public class Size : MonoBehaviour
 {
     private Animator _animator;
     private Transform playerTransform;
-    public float distanceThreshold = 150f;
+    [SerializeField]
+    private float distanceThreshold = 150f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
