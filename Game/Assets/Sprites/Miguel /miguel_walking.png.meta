@@ -138,12 +138,12 @@ TextureImporter:
       name: miguel_walking_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 0
         y: 0
-        width: 16
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -160,12 +160,12 @@ TextureImporter:
       name: miguel_walking_1
       rect:
         serializedVersion: 2
-        x: 27
+        x: 24
         y: 0
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -182,12 +182,12 @@ TextureImporter:
       name: miguel_walking_2
       rect:
         serializedVersion: 2
-        x: 51
+        x: 48
         y: 0
-        width: 16
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: miguel_walking_3
       rect:
         serializedVersion: 2
-        x: 75
+        x: 72
         y: 0
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

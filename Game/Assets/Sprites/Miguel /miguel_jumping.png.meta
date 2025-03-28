@@ -141,12 +141,12 @@ TextureImporter:
       name: miguel_jumping_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 4
         y: 0
-        width: 16
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 14
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -163,12 +163,12 @@ TextureImporter:
       name: miguel_jumping_1
       rect:
         serializedVersion: 2
-        x: 27
+        x: 28
         y: 0
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 14
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -185,12 +185,12 @@ TextureImporter:
       name: miguel_jumping_2
       rect:
         serializedVersion: 2
-        x: 51
-        y: 2
-        width: 16
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 52
+        y: 3
+        width: 14
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -207,12 +207,12 @@ TextureImporter:
       name: miguel_jumping_3
       rect:
         serializedVersion: 2
-        x: 75
-        y: 2
-        width: 16
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 76
+        y: 3
+        width: 14
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -229,12 +229,12 @@ TextureImporter:
       name: miguel_jumping_4
       rect:
         serializedVersion: 2
-        x: 99
-        y: 3
-        width: 16
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 100
+        y: 4
+        width: 14
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -251,7 +251,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7b88d71920a6e48f0aa75227e674c97e
     internalID: 0
     vertices: []
     indices: 
