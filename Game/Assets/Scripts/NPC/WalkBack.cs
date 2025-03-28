@@ -1,4 +1,5 @@
 using System;
+using System.Runtime.InteropServices;
 using OkapiKit;
 using UnityEngine;
 
@@ -12,9 +13,8 @@ public class WalkBack : MonoBehaviour
 
     private Animator _animator;
 
-    public bool inputTrueA = false;
-    public bool inputTrueS = false;
-    public bool inputTrueD = false;
+    private PlayerGuitarTrigger GuitarPlayA, GuitarPlayS, GuitarPlayD;
+
     public bool colliderDisabled = false;
 
     void Start()
@@ -42,11 +42,7 @@ public class WalkBack : MonoBehaviour
         if (distanceToPlayer < distanceThreshold)
         {
 
-            if (inputTrueA == true && Input.GetKey(KeyCode.A) ||
-
-            inputTrueS == true && Input.GetKey(KeyCode.S) ||
-
-            inputTrueD == true && Input.GetKey(KeyCode.D))
+            if (GuitarPlayA || GuitarPlayD|| GuitarPlayS)
 
             {
                 if (colliderDisabled == true)

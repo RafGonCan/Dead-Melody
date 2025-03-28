@@ -1,7 +1,6 @@
 using JetBrains.Annotations;
 using OkapiKit;
 using Unity.Collections;
-//using Unity.VisualScripting.ReorderableList;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -12,12 +11,13 @@ public class Door : MonoBehaviour
     //Getting player position
     private Transform playerTransform;
 
+    private PlayerGuitarTrigger GuitarPlayA;
 
     //Getting collider from door
     private BoxCollider2D collider;
 
     public float distanceThreshold = 5f;
-
+    
     private void Start()
     {
         //Variable that connects the player position to the door
@@ -47,7 +47,7 @@ public class Door : MonoBehaviour
             if (distanceToPlayer < distanceThreshold)
             {
 
-                if (Input.GetKey(KeyCode.C))
+                if (GuitarPlayA)
 
                 {
                     Vector2 scale = defaultScale;
@@ -57,10 +57,6 @@ public class Door : MonoBehaviour
 
                     _animator.SetTrigger("DoorTrigger");
                     var a = _animator.GetCurrentAnimatorStateInfo(0);
-
-                    //if (a.IsName("Door open")== true)
-                    //{
-                    //}
 
                     if (a.IsName("Door idle open") == true)
                     {

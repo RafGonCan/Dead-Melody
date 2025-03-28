@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 354764419}
   - component: {fileID: 354764418}
   m_Layer: 0
-  m_Name: Ripple Effect
+  m_Name: RippleEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -160,14 +160,14 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 354764415}
   serializedVersion: 8
-  lengthInSec: 5
-  simulationSpeed: 1
+  lengthInSec: 3
+  simulationSpeed: 5
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -406,7 +406,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 65
+      scalar: 150
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -1419,7 +1419,7 @@ ParticleSystem:
         m_RotationOrder: 4
     separateAxes: 0
   ColorModule:
-    enabled: 1
+    enabled: 0
     gradient:
       serializedVersion: 2
       minMaxState: 1
@@ -1429,7 +1429,7 @@ ParticleSystem:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 0}
         key1: {r: 1, g: 1, b: 1, a: 1}
-        key2: {r: 0, g: 0, b: 0, a: 0}
+        key2: {r: 1, g: 1, b: 1, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
@@ -1437,16 +1437,16 @@ ParticleSystem:
         key7: {r: 0, g: 0, b: 0, a: 0}
         ctime0: 0
         ctime1: 65535
-        ctime2: 0
+        ctime2: 65535
         ctime3: 0
         ctime4: 0
         ctime5: 0
         ctime6: 0
         ctime7: 0
         atime0: 0
-        atime1: 3778
+        atime1: 3007
         atime2: 65535
-        atime3: 0
+        atime3: 65535
         atime4: 0
         atime5: 0
         atime6: 0
@@ -2144,7 +2144,7 @@ ParticleSystem:
     speedModifier:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: -11.36
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -5261,67 +5261,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1001 &690820541
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1503094462673905194, guid: b67de27bf6b745e45899f7a9adfef4e1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -407
-      objectReference: {fileID: 0}
-    - target: {fileID: 1503094462673905194, guid: b67de27bf6b745e45899f7a9adfef4e1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -321
-      objectReference: {fileID: 0}
-    - target: {fileID: 1503094462673905194, guid: b67de27bf6b745e45899f7a9adfef4e1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1503094462673905194, guid: b67de27bf6b745e45899f7a9adfef4e1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1503094462673905194, guid: b67de27bf6b745e45899f7a9adfef4e1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1503094462673905194, guid: b67de27bf6b745e45899f7a9adfef4e1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1503094462673905194, guid: b67de27bf6b745e45899f7a9adfef4e1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1503094462673905194, guid: b67de27bf6b745e45899f7a9adfef4e1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1503094462673905194, guid: b67de27bf6b745e45899f7a9adfef4e1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1503094462673905194, guid: b67de27bf6b745e45899f7a9adfef4e1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2077569490365320925, guid: b67de27bf6b745e45899f7a9adfef4e1, type: 3}
-      propertyPath: m_Name
-      value: Enemy Platform (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2234910849847387302, guid: b67de27bf6b745e45899f7a9adfef4e1, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b67de27bf6b745e45899f7a9adfef4e1, type: 3}
 --- !u!1 &784092445
 GameObject:
   m_ObjectHideFlags: 0
@@ -5353,14 +5292,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Switches to scene Level 3
+  _explanation: Switches to scene Test Rafael
   description: 
   enableAction: 1
   hasTags: 0
   actionTags: []
   hasConditions: 0
   actionConditions: []
-  sceneName: Level 3
+  sceneName: Test Rafael
 --- !u!114 &784092447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5374,7 +5313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: "When key Escape is pressed:\n          switches to scene Level 1\n"
+  _explanation: "When key Escape is pressed:\n          switches to scene Level 3\n"
   description: 
   enableTrigger: 1
   allowRetrigger: 1
@@ -24268,7 +24207,6 @@ GameObject:
   - component: {fileID: 1952986301}
   - component: {fileID: 1952986300}
   - component: {fileID: 1952986299}
-  - component: {fileID: 1952986298}
   - component: {fileID: 1952986297}
   - component: {fileID: 1952986296}
   - component: {fileID: 1952986295}
@@ -24276,8 +24214,9 @@ GameObject:
   - component: {fileID: 1952986293}
   - component: {fileID: 1952986292}
   - component: {fileID: 1952986291}
-  - component: {fileID: 1952986290}
   - component: {fileID: 1952986289}
+  - component: {fileID: 1952986306}
+  - component: {fileID: 1952986307}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -24298,31 +24237,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerPos: {x: 0, y: 0}
---- !u!114 &1952986290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1952986288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e3e7a99a4ca9064085e4a2664ef1f1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: Spawns prefab Sound Particles at the position of UNDEFINED
-  description: 
-  enableAction: 1
-  hasTags: 0
-  actionTags: []
-  hasConditions: 0
-  actionConditions: []
-  prefabObject: {fileID: 1902731988506235056, guid: 1c276e870239844419c913e2dd0aff3b, type: 3}
-  spawnPosition: 2
-  targetPosition: {fileID: 0}
-  targetTag: {fileID: 0}
-  setParent: 0
 --- !u!114 &1952986291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24336,8 +24250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: "When key S is held:\n          spawns prefab Sound Particles at
-    the position of UNDEFINED\n"
+  _explanation: "When key S is held:\n          [NULL]\n"
   description: 
   enableTrigger: 1
   allowRetrigger: 1
@@ -24345,7 +24258,7 @@ MonoBehaviour:
   preConditions: []
   actions:
   - delay: 0
-    action: {fileID: 1952986290}
+    action: {fileID: 0}
   inputType: 1
   buttonName: 
   key: 115
@@ -24533,20 +24446,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _showInfo: 1
   _explanation: 'Select a random velocity between (250.00, 500.00) and (250.00, 500.00)
-    and set it to Player''s movement.
+    and set it to Player''s rigid body.
 
-    Note that this changes the velocity parameters
-    of the movement, not the current velocity.
+    Note that this changes the velocity
+    parameters of the movement, not the current velocity.
 
-    For that, use the ''Change Rigid
-    Body'' action.'
+    For that, use the
+    ''Change Rigid Body'' action.'
   description: 
   enableAction: 1
   hasTags: 0
   actionTags: []
   hasConditions: 0
   actionConditions: []
-  movementComponent: {fileID: 1952986298}
+  movementComponent: {fileID: 0}
   rigidBodyComponent: {fileID: 0}
   changeType: 0
   operation: 0
@@ -24579,7 +24492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _showInfo: 1
   _explanation: 'Select a random velocity between (400.00, 500.00) and (400.00, 500.00)
-    and set it to Player''s movement, and clamps the speed to be between [400,650].
+    and set it to Player''s rigid body, and clamps the speed to be between [400,650].
 
     Note
     that this changes the velocity parameters of the movement, not the current velocity.
@@ -24611,7 +24524,7 @@ MonoBehaviour:
     percentageCompare: 0
     tile: {fileID: 0}
     tileSet: {fileID: 0}
-  movementComponent: {fileID: 1952986298}
+  movementComponent: {fileID: 0}
   rigidBodyComponent: {fileID: 0}
   changeType: 0
   operation: 0
@@ -24645,11 +24558,11 @@ MonoBehaviour:
   _showInfo: 1
   _explanation: "Run Button Down\n----------------\nWhen key LeftShift is pressed:\n         
     select a random velocity between (400.00, 500.00) and (400.00, 500.00) and set
-    it to Player's movement, and clamps the speed to be between [400,650].\n         
+    it to Player's rigid body, and clamps the speed to be between [400,650].\n         
     Note that this changes the velocity parameters of the movement, not the current
     velocity.\n          For that, use the 'Change Rigid Body' action.\nelse\n         
     select a random velocity between (250.00, 500.00) and (250.00, 500.00) and set
-    it to Player's movement.\n          Note that this changes the velocity parameters
+    it to Player's rigid body.\n          Note that this changes the velocity parameters
     of the movement, not the current velocity.\n          For that, use the 'Change
     Rigid Body' action.\n"
   description: Run Button Down
@@ -24672,122 +24585,6 @@ MonoBehaviour:
   elseActions:
   - delay: 0
     action: {fileID: 1952986295}
---- !u!114 &1952986298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1952986288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3088c41d9f9a9f4ab3a63bd3c155b74, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _showInfo: 1
-  _explanation: 'Platformer controller
-
-    ----------------
-
-    Platformer movement;
-    horizontal speed is 250 units per second.
-
-    Horizontal movement will be controlled
-    by the [LeftArrow] and [RightArrow] keys.
-
-    Ground check is going to use collider
-    GroundCheck, the ground layer mask defines what is considered solid ground.
-
-    When
-    there''s no solid ground below character, the character will start falling after
-    0,1s, with a gravity scale of 3.
-
-    The character''s trajectory can be modified
-    mid-air.
-
-    When in the air, the character''s collider will be Player(Player
-    (UnityEngine.BoxCollider2D)), and on the ground will be Player(Player (UnityEngine.CapsuleCollider2D)).
-
-    The
-    character will jump at a fixed height by using the [Space] button.
-
-    The initial
-    vertical velocity will be 500 units/second.
-
-    Jump height will be 58 units
-    (0,24 seconds to top of trajectory).
-
-    If the character presses the jump button
-    up to 0,1s before hitting the ground, it will jump automatically again.
-
-    This
-    controller also controls some visuals:
-
-    When the player intent is to go left,
-    the horizontal scale of this object will be inverted.
-
-    Some values will be
-    set on animator Player:
-
-    Horizontal velocity will be set to parameter VelocityX.
-
-    Absolute
-    horizontal velocity will be set to parameter AbsVelocityX.
-
-    Vertical velocity
-    will be set to parameter VelocityY.
-
-    Absolute vertical velocity will be set
-    to parameter AbsVelocityY.
-
-    Grounded state will be set to parameter IsGrounded.
-
-'
-  description: Platformer controller
-  hasConditions: 0
-  conditions: []
-  speed: {x: 250, y: 500}
-  horizontalInputType: 2
-  horizontalAxis: Horizontal
-  horizontalButtonPositive: Right
-  horizontalButtonNegative: Left
-  horizontalKeyPositive: 275
-  horizontalKeyNegative: 276
-  gravityScale: 3
-  useTerminalVelocity: 0
-  terminalVelocity: 5
-  coyoteTime: 0.1
-  jumpBehaviour: 1
-  maxJumpCount: 1
-  jumpBufferingTime: 0.1
-  jumpHoldMaxTime: 0.2
-  jumpInputType: 2
-  jumpAxis: Vertical
-  jumpButton: Jump
-  jumpKey: 32
-  enableAirControl: 1
-  airCollider: {fileID: 1952986301}
-  groundCollider: {fileID: 1952986302}
-  glideBehaviour: 0
-  glideMaxTime: 3.4028235e+38
-  maxGlideSpeed: 50
-  glideInputType: 2
-  glideAxis: Vertical
-  glideButton: Jump
-  glideKey: 32
-  groundCheckCollider: {fileID: 850084177}
-  groundLayerMask:
-    serializedVersion: 2
-    m_Bits: 64
-  flipBehaviour: 4
-  useAnimator: 1
-  animator: {fileID: 1952986300}
-  horizontalVelocityParameter: VelocityX
-  absoluteHorizontalVelocityParameter: AbsVelocityX
-  verticalVelocityParameter: VelocityY
-  absoluteVerticalVelocityParameter: AbsVelocityY
-  isGroundedParameter: IsGrounded
-  isGlidingParameter: 
 --- !u!114 &1952986299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25012,6 +24809,34 @@ Transform:
   - {fileID: 354764416}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1952986306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952986288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4841da3518477b49a954b27974fe511, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rippleEffectPS: {fileID: 354764418}
+--- !u!114 &1952986307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952986288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58bd25bf8acfd5e4bb4818ca72197c00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocity: {x: 100, y: 100}
+  horizontalInputName: Horizontal
+  verticalInputName: Vertical
 --- !u!1 &2037798068
 GameObject:
   m_ObjectHideFlags: 0
@@ -25255,63 +25080,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
---- !u!1001 &8378728203051119598
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 381176907707450084, guid: 8ff75ff5a09d3c443bfec90ac0695e32, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 664.6958
-      objectReference: {fileID: 0}
-    - target: {fileID: 381176907707450084, guid: 8ff75ff5a09d3c443bfec90ac0695e32, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -13.583761
-      objectReference: {fileID: 0}
-    - target: {fileID: 381176907707450084, guid: 8ff75ff5a09d3c443bfec90ac0695e32, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.3746176
-      objectReference: {fileID: 0}
-    - target: {fileID: 381176907707450084, guid: 8ff75ff5a09d3c443bfec90ac0695e32, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 381176907707450084, guid: 8ff75ff5a09d3c443bfec90ac0695e32, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 381176907707450084, guid: 8ff75ff5a09d3c443bfec90ac0695e32, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 381176907707450084, guid: 8ff75ff5a09d3c443bfec90ac0695e32, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 381176907707450084, guid: 8ff75ff5a09d3c443bfec90ac0695e32, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 381176907707450084, guid: 8ff75ff5a09d3c443bfec90ac0695e32, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 381176907707450084, guid: 8ff75ff5a09d3c443bfec90ac0695e32, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8083375080040028144, guid: 8ff75ff5a09d3c443bfec90ac0695e32, type: 3}
-      propertyPath: m_Name
-      value: Grave
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8ff75ff5a09d3c443bfec90ac0695e32, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -25324,5 +25092,3 @@ SceneRoots:
   - {fileID: 784092448}
   - {fileID: 4404500743794030348}
   - {fileID: 399669814}
-  - {fileID: 8378728203051119598}
-  - {fileID: 690820541}

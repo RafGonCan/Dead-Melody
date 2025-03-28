@@ -18,17 +18,17 @@ public class PlayerGuitarTrigger : MonoBehaviour
     }
 
 
-    private void GuitarPlayA()
+    public void GuitarPlayA()
     {
         RippleEffect();
         return;
     }
-    private void GuitarPlayS()
+    public void GuitarPlayS()
     {
         RippleEffect();
         return;
     }
-    private void GuitarPlayD()
+    public void GuitarPlayD()
     {
         RippleEffect();
         return;
