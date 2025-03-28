@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: a34b792f95e1c7e4aa827ebb33c14d38
+guid: 049d825afe7674492ba3eac2c3d9a93b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7817235043684384261
-    second: Orange_Box128x128_0
+      213: -8674392484272730826
+    second: miguel_walking_0
+  - first:
+      213: 8496501022166530867
+    second: miguel_walking_1
+  - first:
+      213: 6795460837978446397
+    second: miguel_walking_2
+  - first:
+      213: -5472804535514606252
+    second: miguel_walking_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 0.4
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,23 +135,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Orange_Box128x128_0
+      name: miguel_walking_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50efa80dad56c7c60800000000000000
-      internalID: 7817235043684384261
+      spriteID: 63d0b949efd5e9780800000000000000
+      internalID: -8674392484272730826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miguel_walking_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bbafbc9a2a9e570800000000000000
+      internalID: 8496501022166530867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miguel_walking_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a98c4d0a35e4e50800000000000000
+      internalID: 6795460837978446397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: miguel_walking_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45551876541bc04b0800000000000000
+      internalID: -5472804535514606252
       vertices: []
       indices: 
       edges: []
@@ -151,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4b8cb60e8b4c844a3bb0bfc77771d9c1
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      miguel_walking_0: -8674392484272730826
+      miguel_walking_1: 8496501022166530867
+      miguel_walking_2: 6795460837978446397
+      miguel_walking_3: -5472804535514606252
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
