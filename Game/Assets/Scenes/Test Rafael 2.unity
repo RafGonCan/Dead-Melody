@@ -368,6 +368,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 743703788}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &550378331
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2075296463}
+    m_Modifications:
+    - target: {fileID: 2084204063931155327, guid: 73cad1ac8aabe3142ab0ddb1a55a825b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -472
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084204063931155327, guid: 73cad1ac8aabe3142ab0ddb1a55a825b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -320
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084204063931155327, guid: 73cad1ac8aabe3142ab0ddb1a55a825b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084204063931155327, guid: 73cad1ac8aabe3142ab0ddb1a55a825b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084204063931155327, guid: 73cad1ac8aabe3142ab0ddb1a55a825b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084204063931155327, guid: 73cad1ac8aabe3142ab0ddb1a55a825b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084204063931155327, guid: 73cad1ac8aabe3142ab0ddb1a55a825b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084204063931155327, guid: 73cad1ac8aabe3142ab0ddb1a55a825b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084204063931155327, guid: 73cad1ac8aabe3142ab0ddb1a55a825b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084204063931155327, guid: 73cad1ac8aabe3142ab0ddb1a55a825b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953574469167753308, guid: 73cad1ac8aabe3142ab0ddb1a55a825b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 95
+      objectReference: {fileID: 0}
+    - target: {fileID: 6114182923274661150, guid: 73cad1ac8aabe3142ab0ddb1a55a825b, type: 3}
+      propertyPath: m_Name
+      value: Enemy Grave
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 73cad1ac8aabe3142ab0ddb1a55a825b, type: 3}
 --- !u!1 &743703784
 GameObject:
   m_ObjectHideFlags: 0
@@ -1339,14 +1400,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Switches to scene Test Rafael 1
+  _explanation: Switches to scene Test Rafael 2
   description: 
   enableAction: 1
   hasTags: 0
   actionTags: []
   hasConditions: 0
   actionConditions: []
-  sceneName: Test Rafael 1
+  sceneName: Test Rafael 2
 --- !u!114 &784092447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4529,7 +4590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4539949218511914139, guid: 2b10c808fd0575043a8b538b4c7825e9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 487
+      value: 489
       objectReference: {fileID: 0}
     - target: {fileID: 4539949218511914139, guid: 2b10c808fd0575043a8b538b4c7825e9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4599,7 +4660,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 656090046797353299, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -85.5
+      value: -600
       objectReference: {fileID: 0}
     - target: {fileID: 656090046797353299, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4703,7 +4764,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6593582983555154656, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 211.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6593582983555154656, guid: e0efa1d9bf2ee4443ba55e01b9822608, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5500,14 +5561,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Switches to scene Test Rafael 1
+  _explanation: Switches to scene Test Rafael 2
   description: 
   enableAction: 1
   hasTags: 0
   actionTags: []
   hasConditions: 0
   actionConditions: []
-  sceneName: Test Rafael 1
+  sceneName: Test Rafael 2
 --- !u!114 &1738328233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5618,23 +5679,59 @@ CompositeCollider2D:
       - X: 6400000000
         Y: -1919999872
       - X: 6400000000
+        Y: -1279999872
+      - X: 5760000000
+        Y: -1279999872
+      - X: 5760000000
+        Y: -1920000128
+      - X: 6400000000
+        Y: -1920000128
+      - X: 6400000000
         Y: -3200000000
-      - X: -7680000000
+      - X: -3840000000
         Y: -3200000000
-      - X: -7680000000
-        Y: -1919999872
-      - X: -8320000000
-        Y: -1919999872
-      - X: -8320000000
+      - X: -3840000000
         Y: -3840000000
       - X: 7040000000
         Y: -3840000000
+    - - X: -4480000000
+        Y: -3200000000
+      - X: -7680000000
+        Y: -3200000000
+      - X: -7680000000
+        Y: -1919999872
+      - X: -8320000000
+        Y: -1919999872
+      - X: -8320000000
+        Y: -3840000000
+      - X: -4480000000
+        Y: -3840000000
+    - - X: -5120000000
+        Y: -1919999872
+      - X: -5760000000
+        Y: -1919999872
+      - X: -5760000000
+        Y: -2560000000
+      - X: -5120000000
+        Y: -2560000000
   m_CompositePaths:
     m_Paths:
+    - - {x: 639.99994, y: -192.00002}
+      - {x: 639.99994, y: -127.99999}
+      - {x: 576, y: -128.00002}
+      - {x: 576.00006, y: -192.00002}
     - - {x: 703.99994, y: -384}
       - {x: 703.99994, y: -191.99998}
       - {x: 640, y: -192.00002}
       - {x: 639.99994, y: -320}
+      - {x: -384, y: -320.00003}
+      - {x: -383.99997, y: -384}
+    - - {x: -512.00006, y: -256}
+      - {x: -512.00006, y: -191.99998}
+      - {x: -576, y: -192.00002}
+      - {x: -575.99994, y: -256}
+    - - {x: -448.00006, y: -384}
+      - {x: -448.00006, y: -320}
       - {x: -768, y: -319.99997}
       - {x: -768.00006, y: -191.99998}
       - {x: -832, y: -192.00002}
@@ -5820,16 +5917,6 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: -8, y: -6, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 15
-      m_TileSpriteIndex: 15
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -7, y: -6, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 15
@@ -6039,7 +6126,27 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: -9, y: -4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 15
+      m_TileSpriteIndex: 15
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 10, y: -4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 15
+      m_TileSpriteIndex: 15
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 9, y: -3, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 15
@@ -6081,7 +6188,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 28
+  - m_RefCount: 29
     m_Data: {fileID: 11400000, guid: d571222addb2f4c61bce982f00594616, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
@@ -6114,10 +6221,10 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 28
+  - m_RefCount: 29
     m_Data: {fileID: 21300000, guid: dce1da3fe3eee364d8f8788ab7740e2a, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 28
+  - m_RefCount: 29
     m_Data:
       e00: 1
       e01: 0
@@ -6190,7 +6297,7 @@ Tilemap:
       e32: 4.19e-43
       e33: 4.18e-43
   m_TileColorArray:
-  - m_RefCount: 28
+  - m_RefCount: 29
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -6355,14 +6462,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Switches to scene Test Rafael 1
+  _explanation: Switches to scene Test Rafael 2
   description: 
   enableAction: 1
   hasTags: 0
   actionTags: []
   hasConditions: 0
   actionConditions: []
-  sceneName: Test Rafael 1
+  sceneName: Test Rafael 2
 --- !u!114 &1898470260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6377,7 +6484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _showInfo: 1
   _explanation: "When a collision with a bounding volume with tags [Player] starts:\n         
-    switches to scene Test Rafael\n"
+    switches to scene Test Rafael 1\n"
   description: 
   enableTrigger: 1
   allowRetrigger: 0
@@ -6935,6 +7042,11 @@ MonoBehaviour:
   _explanation: This system is responsible for playing all sounds in the game
   description: 
   defaultMixerOutput: {fileID: 24300002, guid: 61abc601c9a9dc94a9829f1cac77351f, type: 2}
+--- !u!4 &2064125274 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2084204063931155327, guid: 73cad1ac8aabe3142ab0ddb1a55a825b, type: 3}
+  m_PrefabInstance: {fileID: 550378331}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2071939493
 GameObject:
   m_ObjectHideFlags: 0
@@ -7041,7 +7153,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2064125274}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2092555406
