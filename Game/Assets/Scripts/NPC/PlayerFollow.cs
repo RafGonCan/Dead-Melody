@@ -46,7 +46,7 @@ public class PlayerFollow : MonoBehaviour
 
             if (distanceToPlayer < 128f)
             {
-                rb.linearVelocityg -= new Vector2(buffer, buffer);
+                rb.linearVelocity -= new Vector2(buffer, buffer);
             }
 
         }

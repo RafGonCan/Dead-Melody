@@ -13,7 +13,11 @@ public class WalkBack : MonoBehaviour
 
     private Animator _animator;
 
-    private PlayerGuitarTrigger GuitarPlayA, GuitarPlayS, GuitarPlayD;
+    //private PlayerGuitarTrigger GuitarPlayA = new PlayerGuitarTrigger(), GuitarPlayS = new PlayerGuitarTrigger(), GuitarPlayD = new PlayerGuitarTrigger();
+
+    bool guitarA = new PlayerGuitarTrigger();
+    bool guitarS = new PlayerGuitarTrigger();
+    bool guitarD = new PlayerGuitarTrigger();
 
     public bool colliderDisabled = false;
 
@@ -42,7 +46,7 @@ public class WalkBack : MonoBehaviour
         if (distanceToPlayer < distanceThreshold)
         {
 
-            if (GuitarPlayA || GuitarPlayD|| GuitarPlayS)
+            if (guitarA || guitarD|| guitarS)
 
             {
                 if (colliderDisabled == true)
