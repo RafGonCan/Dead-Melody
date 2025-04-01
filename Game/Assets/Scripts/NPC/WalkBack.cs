@@ -66,7 +66,6 @@ public class WalkBack : MonoBehaviour
                     collider.enabled = true;
 
                 }
-
             }
         }
     }
