@@ -6,22 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Puzzle 1.unity
+    path: Assets/Scenes/Puzzles/Puzzle 1.unity
     guid: cbbfb06801a5edf4aa0337a5c687a822
   - enabled: 1
-    path: Assets/Scenes/Puzzle 2.unity
+    path: Assets/Scenes/Puzzles/Puzzle 2.unity
     guid: 7099108c705a3594f87a0fde8a8dbee1
   - enabled: 1
-    path: Assets/Scenes/Puzzle 3.unity
+    path: Assets/Scenes/Puzzles/Puzzle 3.unity
     guid: 4acbd079cfddf8b4e812c66631f02a72
   - enabled: 1
-    path: Assets/Scenes/Puzzle 4.unity
+    path: Assets/Scenes/Puzzles/Puzzle 4.unity
     guid: 1210ce3b24bf99b43b68d42566703d38
   - enabled: 1
-    path: Assets/Scenes/Puzzle 5.unity
+    path: Assets/Scenes/Puzzles/Puzzle 5.unity
     guid: db2e6e2bca3b70b45a0d1214e3b52ae1
   - enabled: 1
-    path: Assets/Scenes/Puzzle 6.unity
+    path: Assets/Scenes/Puzzles/Puzzle 6.unity
     guid: dc87d0aeb8b239d44bd362a9981fadd2
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
