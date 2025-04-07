@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 5dd13420aad6847ff9213d051a816bbe
+guid: 4ec032192fc80403a9396c2a9168e69c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7427446696341331833
-    second: miguel_jumping_0
+      213: 7932486071935178299
+    second: miguel_jumpingt_0
   - first:
-      213: 8519718755624377752
-    second: miguel_jumping_1
+      213: -4755869388889890666
+    second: miguel_jumpingt_1
   - first:
-      213: -1435842939233462031
-    second: miguel_jumping_2
+      213: -7269303230289096209
+    second: miguel_jumpingt_2
   - first:
-      213: -6808958734896294649
-    second: miguel_jumping_3
+      213: 2563391077255657103
+    second: miguel_jumpingt_3
   - first:
-      213: 3245649625822481496
-    second: miguel_jumping_4
+      213: -8046809973241551348
+    second: miguel_jumpingt_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 0.4
+  spritePixelsToUnits: 0.25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -138,13 +138,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: miguel_jumping_0
+      name: miguel_jumpingt_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 0
-        width: 14
-        height: 23
+        width: 24
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7802d6cf4986ce890800000000000000
-      internalID: -7427446696341331833
+      spriteID: b361e67ed0ad51e60800000000000000
+      internalID: 7932486071935178299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miguel_jumping_1
+      name: miguel_jumpingt_1
       rect:
         serializedVersion: 2
-        x: 28
+        x: 24
         y: 0
-        width: 14
-        height: 22
+        width: 24
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89d593f911f1c3670800000000000000
-      internalID: 8519718755624377752
+      spriteID: 690601d0df1cffdb0800000000000000
+      internalID: -4755869388889890666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miguel_jumping_2
+      name: miguel_jumpingt_2
       rect:
         serializedVersion: 2
-        x: 52
-        y: 3
-        width: 14
-        height: 23
+        x: 48
+        y: 0
+        width: 24
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f89cb5447cd21ce0800000000000000
-      internalID: -1435842939233462031
+      spriteID: fe1d40af93f3e1b90800000000000000
+      internalID: -7269303230289096209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miguel_jumping_3
+      name: miguel_jumpingt_3
       rect:
         serializedVersion: 2
-        x: 76
-        y: 3
-        width: 14
-        height: 23
+        x: 72
+        y: 0
+        width: 24
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +219,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 70596342b18b181a0800000000000000
-      internalID: -6808958734896294649
+      spriteID: f86ba347a9ef29320800000000000000
+      internalID: 2563391077255657103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: miguel_jumping_4
+      name: miguel_jumpingt_4
       rect:
         serializedVersion: 2
-        x: 100
-        y: 4
-        width: 14
-        height: 23
+        x: 96
+        y: 0
+        width: 24
+        height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,8 +241,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85c4784732dda0d20800000000000000
-      internalID: 3245649625822481496
+      spriteID: c06edd196fcf35090800000000000000
+      internalID: -8046809973241551348
       vertices: []
       indices: 
       edges: []
@@ -251,7 +251,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7b88d71920a6e48f0aa75227e674c97e
+    spriteID: 1e170605889a244309a450cba0b161d2
     internalID: 0
     vertices: []
     indices: 
@@ -261,11 +261,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      miguel_jumping_0: -7427446696341331833
-      miguel_jumping_1: 8519718755624377752
-      miguel_jumping_2: -1435842939233462031
-      miguel_jumping_3: -6808958734896294649
-      miguel_jumping_4: 3245649625822481496
+      miguel_jumpingt_0: 7932486071935178299
+      miguel_jumpingt_1: -4755869388889890666
+      miguel_jumpingt_2: -7269303230289096209
+      miguel_jumpingt_3: 2563391077255657103
+      miguel_jumpingt_4: -8046809973241551348
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
