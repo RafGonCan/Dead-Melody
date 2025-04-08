@@ -2,6 +2,7 @@ using System;
 using System.Runtime.InteropServices;
 using OkapiKit;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class WalkBack : MonoBehaviour
 {
@@ -46,7 +47,7 @@ public class WalkBack : MonoBehaviour
         if (distanceToPlayer < distanceThreshold)
         {
 
-            if (guitarA || guitarD|| guitarS)
+            if (guitarA || guitarD || guitarS)
 
             {
                 if (colliderDisabled == true)
@@ -55,7 +56,7 @@ public class WalkBack : MonoBehaviour
                     collider.enabled = false;
 
                 }
-                
+
                 _animator.SetTrigger("MoveTrigger");
 
                 var a = _animator.GetCurrentAnimatorStateInfo(0);
