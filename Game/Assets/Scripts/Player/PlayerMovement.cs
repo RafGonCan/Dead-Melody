@@ -8,14 +8,12 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private string horizontalInputName = "Horizontal";
 
-    [SerializeField] private string verticalInputName = "Vertical";
-
     [SerializeField] private float gravity = 0;
 
     private Rigidbody2D rb;
     
     private Animator _animator;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
 
@@ -24,37 +22,24 @@ public class PlayerMovement : MonoBehaviour
         _animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame  
+
     void Update()
     {
         float MovHorizontal = Input.GetAxis(horizontalInputName);
+         
+        rb.linearVelocity = new Vector2(MovHorizontal * velocity.x, rb.linearVelocity.y - gravity * Time.deltaTime);
 
-        float VerticalMov = Input.GetAxis(verticalInputName);
-        if (VerticalMov > 0)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            rb.gravityScale = 0;
-            rb.linearVelocity = Vector2.up * velocity.y;
+            rb.AddForce(new Vector2(rb.linearVelocity.x, velocity.y), ForceMode2D.Impulse);
         }
-        else if (VerticalMov < 0)
-        {
-            rb.gravityScale = 0;
-            rb.linearVelocity = Vector2.down * velocity.y;
-        }
-        else
-        {
-            rb.gravityScale = gravity;
-            rb.linearVelocity = Vector2.zero;
-        }
-
-        rb.linearVelocity = Vector2.right * MovHorizontal * velocity.x;
-        
       
-        if (MovHorizontal == 1)
+        if (MovHorizontal >= 0.1f)
         {
             _animator.SetBool("IsWalking", true);
             _animator.SetBool("IsIdle", false);
         }
-        else if (MovHorizontal == -1)
+        else if (MovHorizontal <= -0.1f)
         {
             _animator.SetBool("IsWalkingB", true);
             _animator.SetBool("IsIdle", false);
