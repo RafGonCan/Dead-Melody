@@ -8,6 +8,12 @@ public class ButtonManager : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public void Exit()
+    {
+        SceneManager.LoadScene(0);
+        //GameObject tutorialMenu = GameObject.Find("Tutorial Canvas");
+    }
+
     public void QuitButton()
     {
         Debug.Log("Quit game");
