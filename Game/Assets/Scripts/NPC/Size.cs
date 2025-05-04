@@ -44,7 +44,7 @@ public class Size : MonoBehaviour
             {
                 bool isSmall = _animator.GetBool("Small");
                 _animator.SetBool("Small", !isSmall);
-                _animator.SetBool("Normal", isSmall);
+                //_animator.SetBool("Small", isSmall);
             }
         }
     }

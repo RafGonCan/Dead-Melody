@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Puzzles 2.0/Test 5.unity
     guid: 4cd0616e4e2a34f40a9ed2cba431e92e
   - enabled: 1
+    path: Assets/Scenes/Puzzles 2.0/Test 6.unity
+    guid: b160f609f2d2a4043bc758bc70bb1101
+  - enabled: 1
     path: Assets/Scenes/Puzzles 2.0/Final Test.unity
     guid: 819a285800379b341a8500f6e8de9dff
   m_configObjects: {}
