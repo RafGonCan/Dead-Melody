@@ -4,20 +4,20 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - Door
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - BoundingBox
+  - 
   - Water
   - UI
   - Ground
-  - Exit
-  - ExitCheck
   - Enemy
   - Props
   - SoundWave
+  - 
+  - 
   - 
   - 
   - 

@@ -9,14 +9,15 @@ public class Mud : MonoBehaviour
         if (collision.gameObject.CompareTag("Player")) // Check if the player collided with the mud
         {
             Debug.Log("Collision with player");
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            StartCoroutine(RestartLevel());
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            //StartCoroutine(RestartLevel());
         }
     }
-    
+    /*
     private IEnumerator RestartLevel() //Restart level after a delay
     {
         yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+    */
 }
