@@ -9,22 +9,22 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: d8ed7f2a30a32fa4ba6a03f526242707
   - enabled: 1
-    path: Assets/Scenes/Puzzles/Test 1.unity
+    path: Assets/Scenes/Puzzles 2.0/Test 1.unity
     guid: 9e16104196677f14f96480b04efc067f
   - enabled: 1
-    path: Assets/Scenes/Puzzles/Test 2.unity
+    path: Assets/Scenes/Puzzles 2.0/Test 2.unity
     guid: cbd1f4132d9284744bd6a2fbaf9b8049
   - enabled: 1
-    path: Assets/Scenes/Puzzles/Test 3.unity
+    path: Assets/Scenes/Puzzles 2.0/Test 3.unity
     guid: 6c3b3559e8b5bb443af2ef7606f3d7e3
   - enabled: 1
-    path: Assets/Scenes/Puzzles/Test 4.unity
+    path: Assets/Scenes/Puzzles 2.0/Test 4.unity
     guid: a1be31a29ddd21a44bb502a4ca428a8b
   - enabled: 1
-    path: Assets/Scenes/Puzzles/Test 5.unity
+    path: Assets/Scenes/Puzzles 2.0/Test 5.unity
     guid: 4cd0616e4e2a34f40a9ed2cba431e92e
   - enabled: 1
-    path: Assets/Scenes/Puzzles/Test 6.unity
+    path: Assets/Scenes/Puzzles 2.0/Test 6.unity
     guid: 819a285800379b341a8500f6e8de9dff
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
