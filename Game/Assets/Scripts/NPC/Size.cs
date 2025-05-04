@@ -5,27 +5,30 @@ public class Size : MonoBehaviour
     private Animator _animator;
     private Transform playerTransform;
     [SerializeField]
-    private float distanceThreshold = 150f;
+    private float distanceThreshold = 75f;
 
     void Start()
     {
-        GameObject player = GameObject.FindWithTag("Player");
-        if (player != null)
-        {
-            playerTransform = player.transform;
-        }
-        else
-        {
-            Debug.LogWarning("Player object not found. Ensure the player has the 'Player' tag.");
-        }
-
+        playerTransform = GameObject.FindWithTag("Player").transform;
         _animator = GetComponent<Animator>();
-        if (_animator == null)
-        {
-            Debug.LogError("Animator component not found on this GameObject.");
-        }
     }
 
+    /*void Update()
+    {
+        float distanceToPlayer = Vector2.Distance(playerTransform.position, transform.position);
+
+        if (distanceToPlayer < distanceThreshold)
+        {
+            if (Input.GetButtonDown("Fire1"))
+            {
+                _animator.SetBool("Small", true);
+            }
+            if (_animator.GetBool("Small") == true && Input.GetButtonDown("Fire1"))
+            {
+                _animator.SetBool("Small", false);
+            }
+        }
+    }*/
     void Update()
     {
         if (playerTransform == null || _animator == null)
@@ -37,7 +40,7 @@ public class Size : MonoBehaviour
 
         if (distanceToPlayer < distanceThreshold)
         {
-            if (Input.GetKeyDown(KeyCode.S))
+            if (Input.GetButtonDown("Fire1"))
             {
                 bool isSmall = _animator.GetBool("Small");
                 _animator.SetBool("Small", !isSmall);
