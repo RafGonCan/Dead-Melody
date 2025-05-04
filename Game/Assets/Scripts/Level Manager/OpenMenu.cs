@@ -14,7 +14,7 @@ public class OpenMenu : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetButton("Cancel"))
+        if (Input.GetButtonDown("Cancel"))
         {
             Debug.Log("Open pause menu");
             PauseMenu.SetActive(true);
