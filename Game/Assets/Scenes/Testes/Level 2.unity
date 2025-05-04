@@ -504,14 +504,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 562705762}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 58bd25bf8acfd5e4bb4818ca72197c00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: {x: 100, y: 100}
-  horizontalInputName: Horizontal
-  gravity: 100
+  horizontalAxisName: Horizontal
+  groundCheck: {fileID: 778890581}
+  groundCheckLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  groundCheckRadius: 2
+  jumpMaxDuration: 0.1
+  jumpGravityScale: 1
+  animator: {fileID: 0}
+  groundCollider: {fileID: 0}
+  airCollider: {fileID: 0}
 --- !u!114 &562705765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -524,7 +533,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 514ea9f9f80cb0d429d3353b08f9d547, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPos: {x: 0, y: 0}
 --- !u!114 &562705766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -906,7 +914,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 562705762}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3088c41d9f9a9f4ab3a63bd3c155b74, type: 3}
   m_Name: 
@@ -927,7 +935,7 @@ MonoBehaviour:
 
     When
     there''s no solid ground below character, the character will start falling after
-    0.1s, with a gravity scale of 3.
+    0,1s, with a gravity scale of 3.
 
     The character''s trajectory can be modified
     mid-air.
@@ -941,11 +949,11 @@ MonoBehaviour:
     The initial
     vertical velocity will be 500 units/second.
 
-    Jump height will be 58 units
-    (0.24 seconds to top of trajectory).
+    Jump height will be 235 units
+    (0,94 seconds to top of trajectory).
 
     If the character presses the jump button
-    up to 0.1s before hitting the ground, it will jump automatically again.
+    up to 0,1s before hitting the ground, it will jump automatically again.
 
     This
     controller also controls some visuals:
@@ -1325,14 +1333,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: Switches to scene Level 2
+  _explanation: Switches to scene Main Menu
   description: 
   enableAction: 1
   hasTags: 0
   actionTags: []
   hasConditions: 0
   actionConditions: []
-  sceneName: Level 2
+  sceneName: Main Menu
 --- !u!114 &784092447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1346,7 +1354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _showInfo: 1
-  _explanation: "When key Escape is pressed:\n          switches to scene Level 2\n"
+  _explanation: "When key Escape is pressed:\n          switches to scene Main Menu\n"
   description: 
   enableTrigger: 1
   allowRetrigger: 1
@@ -13074,6 +13082,67 @@ MonoBehaviour:
     width: 200
     height: 200
   cameraLimits: {fileID: 2092555407}
+--- !u!1001 &1444308223
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3220925922257868965, guid: 3c395fac3ead4e548b0f95cbabc445e7, type: 3}
+      propertyPath: m_Name
+      value: Enemy Blue Box Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3299721193374497671, guid: 3c395fac3ead4e548b0f95cbabc445e7, type: 3}
+      propertyPath: distanceThreshold
+      value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007312313500716986, guid: 3c395fac3ead4e548b0f95cbabc445e7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -334.1956
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007312313500716986, guid: 3c395fac3ead4e548b0f95cbabc445e7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -63.339027
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007312313500716986, guid: 3c395fac3ead4e548b0f95cbabc445e7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007312313500716986, guid: 3c395fac3ead4e548b0f95cbabc445e7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007312313500716986, guid: 3c395fac3ead4e548b0f95cbabc445e7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007312313500716986, guid: 3c395fac3ead4e548b0f95cbabc445e7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007312313500716986, guid: 3c395fac3ead4e548b0f95cbabc445e7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007312313500716986, guid: 3c395fac3ead4e548b0f95cbabc445e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007312313500716986, guid: 3c395fac3ead4e548b0f95cbabc445e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007312313500716986, guid: 3c395fac3ead4e548b0f95cbabc445e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3c395fac3ead4e548b0f95cbabc445e7, type: 3}
 --- !u!1 &1701233744
 GameObject:
   m_ObjectHideFlags: 0
@@ -25562,3 +25631,4 @@ SceneRoots:
   - {fileID: 384344962}
   - {fileID: 1832671717}
   - {fileID: 784092448}
+  - {fileID: 1444308223}

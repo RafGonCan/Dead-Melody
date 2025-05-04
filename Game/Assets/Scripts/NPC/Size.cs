@@ -6,7 +6,7 @@ public class Size : MonoBehaviour
     private Transform playerTransform;
     [SerializeField]
     private float distanceThreshold = 150f;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
         GameObject player = GameObject.FindWithTag("Player");
@@ -14,32 +14,34 @@ public class Size : MonoBehaviour
         {
             playerTransform = player.transform;
         }
+        else
+        {
+            Debug.LogWarning("Player object not found. Ensure the player has the 'Player' tag.");
+        }
+
         _animator = GetComponent<Animator>();
+        if (_animator == null)
+        {
+            Debug.LogError("Animator component not found on this GameObject.");
+        }
     }
 
-    
-
-    // Update is called once per frame
     void Update()
     {
+        if (playerTransform == null || _animator == null)
+        {
+            return;
+        }
+
         float distanceToPlayer = Vector2.Distance(playerTransform.position, transform.position);
+
         if (distanceToPlayer < distanceThreshold)
         {
-            if (Input.GetKey(KeyCode.S) && _animator.GetBool("Small") == false
-                && _animator.GetBool("Normal") == false)
+            if (Input.GetKeyDown(KeyCode.S))
             {
-                _animator.SetBool("Small", true);
-            }
-            else if (Input.GetKey(KeyCode.S) && _animator.GetBool("Small") == true
-                && _animator.GetBool("Normal") == false)
-            {
-                _animator.SetBool("Small", false);
-                _animator.SetBool("Normal", true);
-            }
-            else
-            {
-                _animator.SetBool("Normal", false);
-                _animator.SetBool("Small", true);
+                bool isSmall = _animator.GetBool("Small");
+                _animator.SetBool("Small", !isSmall);
+                _animator.SetBool("Normal", isSmall);
             }
         }
     }

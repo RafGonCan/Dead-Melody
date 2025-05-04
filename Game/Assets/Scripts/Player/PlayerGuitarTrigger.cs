@@ -3,34 +3,78 @@ using UnityEngine;
 public class PlayerGuitarTrigger : MonoBehaviour
 {
     [SerializeField] private ParticleSystem rippleEffectPS;
+
+    public int comboValue = 0;
+
+    public void Start()
+    {
+        if (rippleEffectPS == null)
+        {
+            Debug.LogError("Ripple Effect Particle System is not assigned in the inspector.");
+        }
+    }
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A)) { GuitarPlayA(); }
-        if (Input.GetKeyDown(KeyCode.S)) { GuitarPlayS(); }
-        if (Input.GetKeyDown(KeyCode.D)) { GuitarPlayD(); }
+        Input.GetKeyDown(KeyCode.A);
+        Input.GetKeyDown(KeyCode.S);
+        Input.GetKeyDown(KeyCode.D);
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+
+            comboValue = 1 ;
+            Debug.Log("Combo Value: " + comboValue + " A key pressed");
+            RippleEffect();
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            comboValue = 2;
+            Debug.Log("Combo Value: " + comboValue + " S key pressed");
+            RippleEffect();
+        }
+
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            comboValue = 3;
+            Debug.Log("Combo Value: " + comboValue + " D key pressed");
+            RippleEffect();
+        }
+
+        if (Input.GetKeyDown(KeyCode.A) && Input.GetKeyDown(KeyCode.S) && Input.GetKeyDown(KeyCode.D))
+        {
+            comboValue = 4;
+            Debug.Log("Combo Value: " + comboValue + " A, S, D keys pressed");
+            RippleEffect();
+        }
+
+        if (Input.GetKeyDown(KeyCode.A) && Input.GetKeyDown(KeyCode.S))
+        {
+            comboValue = 5;
+            Debug.Log("Combo Value: " + comboValue + " A, S keys pressed");
+            RippleEffect();
+        }
+        if (Input.GetKeyDown(KeyCode.A) && Input.GetKeyDown(KeyCode.D))
+        {
+            comboValue = 6;
+            Debug.Log("Combo Value: " + comboValue + " A, D keys pressed");
+            RippleEffect();
+        }
+
+        if (Input.GetKeyDown(KeyCode.S) && Input.GetKeyDown(KeyCode.D))
+        {
+            comboValue = 7;
+            Debug.Log("Combo Value: " + comboValue + " S, D keys pressed");
+            RippleEffect();
+        }
+
     }
 
     private void RippleEffect()
     {
         rippleEffectPS.Play();
 
-        return;
-    }
-
-
-    public void GuitarPlayA()
-    {
-        RippleEffect();
-        return;
-    }
-    public void GuitarPlayS()
-    {
-        RippleEffect();
-        return;
-    }
-    public void GuitarPlayD()
-    {
-        RippleEffect();
         return;
     }
 }
