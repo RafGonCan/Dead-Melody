@@ -11,7 +11,6 @@ public class ButtonManager : MonoBehaviour
     public void Exit()
     {
         SceneManager.LoadScene(0);
-        //GameObject tutorialMenu = GameObject.Find("Tutorial Canvas");
     }
 
     public void QuitButton()

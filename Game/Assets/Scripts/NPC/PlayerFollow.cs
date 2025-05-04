@@ -17,7 +17,7 @@ public class PlayerFollow : MonoBehaviour
 
     void Start()
     {
-        GetComponent<PlayerPosition>();
+        //GetComponent<Player>();
 
         rb = GetComponent<Rigidbody2D>();
 
