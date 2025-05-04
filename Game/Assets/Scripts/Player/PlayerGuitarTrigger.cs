@@ -23,7 +23,7 @@ public class PlayerGuitarTrigger : MonoBehaviour
         {
 
             comboValue = 1 ;
-            Debug.Log("Combo Value: " + comboValue);
+            Debug.Log("Combo Value: " + comboValue + " A key pressed");
             RippleEffect();
 
         }
@@ -31,48 +31,41 @@ public class PlayerGuitarTrigger : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.S))
         {
             comboValue = 2;
-            Debug.Log("Combo Value: " + comboValue);
+            Debug.Log("Combo Value: " + comboValue + " S key pressed");
             RippleEffect();
         }
 
         if (Input.GetKeyDown(KeyCode.D))
         {
             comboValue = 3;
-            Debug.Log("Combo Value: " + comboValue);
+            Debug.Log("Combo Value: " + comboValue + " D key pressed");
             RippleEffect();
         }
 
         if (Input.GetKeyDown(KeyCode.A) && Input.GetKeyDown(KeyCode.S) && Input.GetKeyDown(KeyCode.D))
         {
             comboValue = 4;
-            Debug.Log("Combo Value: " + comboValue);
+            Debug.Log("Combo Value: " + comboValue + " A, S, D keys pressed");
             RippleEffect();
         }
 
         if (Input.GetKeyDown(KeyCode.A) && Input.GetKeyDown(KeyCode.S))
         {
             comboValue = 5;
-            Debug.Log("Combo Value: " + comboValue);
+            Debug.Log("Combo Value: " + comboValue + " A, S keys pressed");
             RippleEffect();
         }
         if (Input.GetKeyDown(KeyCode.A) && Input.GetKeyDown(KeyCode.D))
         {
             comboValue = 6;
-            Debug.Log("Combo Value: " + comboValue);
+            Debug.Log("Combo Value: " + comboValue + " A, D keys pressed");
             RippleEffect();
         }
 
         if (Input.GetKeyDown(KeyCode.S) && Input.GetKeyDown(KeyCode.D))
         {
             comboValue = 7;
-            Debug.Log("Combo Value: " + comboValue);
-            RippleEffect();
-        }
-
-        if (Input.GetKeyDown(KeyCode.A) && Input.GetKeyDown(KeyCode.D))
-        {
-            comboValue = 8;
-            Debug.Log("Combo Value: " + comboValue);
+            Debug.Log("Combo Value: " + comboValue + " S, D keys pressed");
             RippleEffect();
         }
 
