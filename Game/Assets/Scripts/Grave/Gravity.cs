@@ -3,7 +3,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class Gravity : MonoBehaviour
+public class Gravity2 : MonoBehaviour
 {
     // The distance between the player and the grave to make the grave fall
     [SerializeField]

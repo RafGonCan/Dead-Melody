@@ -7,6 +7,7 @@ public class RestartLevel : MonoBehaviour
     {
         if (Input.GetButtonDown("Restart"))
         {
+            Debug.Log("Restart Level");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
