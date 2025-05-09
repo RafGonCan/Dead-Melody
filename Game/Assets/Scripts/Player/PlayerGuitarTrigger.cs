@@ -4,7 +4,8 @@ public class PlayerGuitarTrigger : MonoBehaviour
 {
     [SerializeField] private ParticleSystem rippleEffectPS;
 
-    public int comboValue = 0;
+    private int comboValue = 0;
+
 
     public void Start()
     {
@@ -67,7 +68,7 @@ public class PlayerGuitarTrigger : MonoBehaviour
             comboValue = 7;
             Debug.Log("Combo Value: " + comboValue + " S, D keys pressed");
             RippleEffect();
-        }
+        }  
 
     }
 
