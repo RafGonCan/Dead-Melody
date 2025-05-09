@@ -2585,7 +2585,7 @@ GameObject:
   - component: {fileID: 1069829260}
   - component: {fileID: 1069829259}
   - component: {fileID: 1069829258}
-  - component: {fileID: 1069829257}
+  - component: {fileID: 1069829262}
   m_Layer: 8
   m_Name: crate
   m_TagString: Untagged
@@ -2608,19 +2608,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2020687240}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1069829257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1069829255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 038042e4e5a538849983b59a9a8b22e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  distanceThreshold: 75
 --- !u!95 &1069829258
 Animator:
   serializedVersion: 7
@@ -2771,6 +2758,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1069829262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069829255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a53741a247376345ae73a7ef66689a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceThreshold: 75
 --- !u!1 &1194631498
 GameObject:
   m_ObjectHideFlags: 0
