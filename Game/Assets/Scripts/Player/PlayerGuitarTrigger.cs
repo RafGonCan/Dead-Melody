@@ -1,3 +1,5 @@
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class PlayerGuitarTrigger : MonoBehaviour
@@ -5,13 +7,17 @@ public class PlayerGuitarTrigger : MonoBehaviour
     [SerializeField] private ParticleSystem rippleEffectPS;
 
     private int comboValue = 0;
+    private bool keyA = false;
+    private bool keyS = false;
+    private bool keyD = false;
+
 
 
     public void Start()
     {
         if (rippleEffectPS == null)
         {
-            Debug.LogError("Ripple Effect Particle System is not assigned in the inspector.");
+            Debug.LogWarning("Ripple Effect Particle System is not assigned in the inspector.");
         }
     }
     public void Update()
@@ -23,52 +29,91 @@ public class PlayerGuitarTrigger : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.A))
         {
 
-            comboValue = 1 ;
-            Debug.Log("Combo Value: " + comboValue + " A key pressed");
-            RippleEffect();
+            keyA = true; 
+
 
         }
+        else if (Input.GetKeyUp(KeyCode.A))
+        {
 
+            keyA = false;
+  
+
+        }
         if (Input.GetKeyDown(KeyCode.S))
         {
-            comboValue = 2;
-            Debug.Log("Combo Value: " + comboValue + " S key pressed");
-            RippleEffect();
-        }
 
+            keyS = true;
+
+
+        }
+        else if (Input.GetKeyUp(KeyCode.S))
+        {
+
+            keyS = false;
+
+
+        }
         if (Input.GetKeyDown(KeyCode.D))
         {
+
+            keyD = true;
+
+
+        }
+        else if (Input.GetKeyUp(KeyCode.D))
+        {
+
+            keyD = false;
+
+
+        }
+
+        if(keyA)
+        {
+
+            Debug.Log("Combo Value 1 Key A pressed");
+            comboValue = 1;
+
+        }
+        if (keyS)
+        {
+
+            Debug.Log("Combo Value 2 Key S pressed");
+            comboValue = 2;
+
+        }
+        if (keyD)
+        {
+
+            Debug.Log("Combo Value 3 Key D pressed");
             comboValue = 3;
-            Debug.Log("Combo Value: " + comboValue + " D key pressed");
-            RippleEffect();
-        }
 
-        if (Input.GetKeyDown(KeyCode.A) && Input.GetKeyDown(KeyCode.S) && Input.GetKeyDown(KeyCode.D))
+        }
+        if (keyA && keyS && keyD)
         {
+            Debug.Log("Combo Value 4 Key A, S and D pressed");
             comboValue = 4;
-            Debug.Log("Combo Value: " + comboValue + " A, S, D keys pressed");
-            RippleEffect();
-        }
 
-        if (Input.GetKeyDown(KeyCode.A) && Input.GetKeyDown(KeyCode.S))
+        }
+        else if (keyA && keyS)
         {
+            Debug.Log("Combo Value 5 Key A and S pressed");
             comboValue = 5;
-            Debug.Log("Combo Value: " + comboValue + " A, S keys pressed");
-            RippleEffect();
-        }
-        if (Input.GetKeyDown(KeyCode.A) && Input.GetKeyDown(KeyCode.D))
-        {
-            comboValue = 6;
-            Debug.Log("Combo Value: " + comboValue + " A, D keys pressed");
-            RippleEffect();
-        }
 
-        if (Input.GetKeyDown(KeyCode.S) && Input.GetKeyDown(KeyCode.D))
+        }
+        else if (keyA && keyD)
         {
+            Debug.Log("Combo Value 6 Key A and D pressed");
+            comboValue = 6;
+
+        }
+        else if (keyS && keyD)
+        {
+            Debug.Log("Combo Value 7 Key S and D pressed");
             comboValue = 7;
-            Debug.Log("Combo Value: " + comboValue + " S, D keys pressed");
-            RippleEffect();
-        }  
+
+        }
 
     }
 
