@@ -2291,7 +2291,7 @@ GameObject:
   - component: {fileID: 1288971519}
   - component: {fileID: 1288971518}
   m_Layer: 5
-  m_Name: Tutorial Background
+  m_Name: Pause Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

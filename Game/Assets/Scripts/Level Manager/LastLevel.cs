@@ -8,11 +8,11 @@ public class LastLevel : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            StartCoroutine(LoadNextLevel());
+            StartCoroutine(LoadLastLevel());
         }
     }
 
-    private IEnumerator LoadNextLevel()
+    private IEnumerator LoadLastLevel()
     {
             yield return new WaitForSeconds (0.05f);
             SceneManager.LoadScene(7);
