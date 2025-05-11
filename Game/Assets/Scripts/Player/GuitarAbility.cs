@@ -5,14 +5,16 @@ public class GuitarAbility : MonoBehaviour
     [SerializeField] private Transform abilityCheckTransform;
     [SerializeField, Range(0f, 100.0f)] private float abilityRadius = 0f;
     [SerializeField] private Animator animatorAffected;
+    [SerializeField] private ParticleSystem soundWaveArea;
 
     // Update is called once per frame
     void Update()
     {
         // Play sound if "Fire1" was pressed
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButton("Fire1"))
         {
             Debug.Log("Guitar Ability");
+            soundWaveArea.Play();
         }   
     }
 
@@ -23,19 +25,19 @@ public class GuitarAbility : MonoBehaviour
         {
             Debug.Log("Enemy in range");
             // If in range and pressed "Fire1" make box move up
-            if (Input.GetButtonDown("Fire1"))
+            if (Input.GetButton("Fire1"))
             {
                 Debug.Log("Ability hit");
                 animatorAffected.SetBool("UpMovement", true);
             }
             // If in range, pressed "Fire1" and box up, move box down
-            else if (Input.GetButtonDown("Fire1") && animatorAffected.GetBool("UpMovement") == true)
+            else if (Input.GetButton("Fire1") && animatorAffected.GetBool("UpMovement") == true)
             {
                 Debug.Log("Ability hit again");
                 animatorAffected.SetBool("DownMovement",true);
                 animatorAffected.SetBool("UpMovement", false);
             }
-            else if (Input.GetButtonDown("Fire1") && animatorAffected.GetBool("DownMovement") == true)
+            else if (Input.GetButton("Fire1") && animatorAffected.GetBool("DownMovement") == true)
             {
                 Debug.Log("Ability hit again");
                 animatorAffected.SetBool("DownMovement", false);

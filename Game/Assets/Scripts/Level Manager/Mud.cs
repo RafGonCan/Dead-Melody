@@ -7,7 +7,7 @@ public class Mud : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         // Check if the player collided with the mud
-        if (collision.gameObject.CompareTag("Player")) 
+        if (collision.gameObject.GetComponent<PlayerMovement>()) 
         {
             Debug.Log("Collision with player");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
