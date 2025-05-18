@@ -21,7 +21,7 @@ public class GuitarAbility : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D soundArea)
     {
         // check if the Obstacle is in range
-        if (soundArea.GetComponent<Obstacle>())
+        if (soundArea.GetComponent<Obstacle>() && soundArea.GetComponent<Animator>())
         {
             Debug.Log("Enemy in range");
             // If in range and pressed "Fire1" make box move up
@@ -31,17 +31,17 @@ public class GuitarAbility : MonoBehaviour
                 animatorAffected.SetBool("UpMovement", true);
             }
             // If in range, pressed "Fire1" and box up, move box down
-            else if (Input.GetButton("Fire1") && animatorAffected.GetBool("UpMovement") == true)
+            else if (Input.GetButton("Fire1") && animatorAffected.GetBool("UpMovement") == true && animatorAffected.GetBool("DownMovement") == false)
             {
                 Debug.Log("Ability hit again");
                 animatorAffected.SetBool("DownMovement",true);
                 animatorAffected.SetBool("UpMovement", false);
             }
-            else if (Input.GetButton("Fire1") && animatorAffected.GetBool("DownMovement") == true)
+            else if (Input.GetButton("Fire1") && animatorAffected.GetBool("DownMovement") == true && animatorAffected.GetBool("UpMovement") == false)
             {
                 Debug.Log("Ability hit again");
                 animatorAffected.SetBool("DownMovement", false);
-                animatorAffected.SetBool("UpMovement", true);
+                animatorAffected.SetBool("UpMovement", false);
             }
         }
     }
