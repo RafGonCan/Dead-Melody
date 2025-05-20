@@ -603,7 +603,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Tutorial
+  m_text: 'Controls
 
 '
   m_isRightToLeft: 0
@@ -843,7 +843,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 638efbecb5c53944a880648028973e68, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
@@ -959,7 +959,7 @@ GameObject:
   - component: {fileID: 800483769}
   - component: {fileID: 800483768}
   m_Layer: 5
-  m_Name: Tutorial Background
+  m_Name: Controls Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1340,7 +1340,7 @@ GameObject:
   - component: {fileID: 1873414891}
   - component: {fileID: 1873414890}
   m_Layer: 5
-  m_Name: Tutorial Canvas
+  m_Name: Controls Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1811,7 +1811,8 @@ MonoBehaviour:
 
     Pause:
 
-    Esc'
+    Esc
+    or P'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: f629c6e43dba4bf38cb74d8860150664, type: 2}
@@ -2012,11 +2013,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4374068490282490549, guid: 7b54aa5626733c04386ee3a938a407d2, type: 3}
       propertyPath: m_Name
-      value: Tutorial Button
+      value: Controls Button
       objectReference: {fileID: 0}
     - target: {fileID: 7853590417889259511, guid: 7b54aa5626733c04386ee3a938a407d2, type: 3}
       propertyPath: m_text
-      value: Tutorial
+      value: Controls
       objectReference: {fileID: 0}
     - target: {fileID: 7853590417889259511, guid: 7b54aa5626733c04386ee3a938a407d2, type: 3}
       propertyPath: m_fontSize
