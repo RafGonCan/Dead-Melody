@@ -287,11 +287,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<< HEAD
       CemeteryBoxNpc_0: 7083259
       CemeteryBoxNpc_1: -731672283
       CemeteryBoxNpc_2: 1726806069
       CemeteryBoxNpc_3: 439569722
       CemeteryBoxNpc_4: 1803704262
+=======
+      CemeteryBoxNpc_0: 8342701389655041374
+      CemeteryBoxNpc_1: 5228025351030658642
+      CemeteryBoxNpc_2: 3055935143490510580
+      CemeteryBoxNpc_3: -7852745117420567823
+      CemeteryBoxNpc_4: -8359623906327450784
+>>>>>>> ae79e66ab47d658740b135b0b8dd5818fd6eb2be
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
