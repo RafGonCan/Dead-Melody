@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GuitarAbility : MonoBehaviour
@@ -5,15 +7,15 @@ public class GuitarAbility : MonoBehaviour
     [SerializeField] private Transform abilityCheckTransform;
     [SerializeField, Range(0f, 100.0f)] private float abilityRadius = 0f;
     [SerializeField] private Animator animatorAffected;
-    [SerializeField] private ParticleSystem soundWaveArea;
+    [SerializeField] private ParticleSystem soundWaveArea;   
 
     // Update is called once per frame
     void Update()
     {
         // Play sound if "Fire1" was pressed
-        if (Input.GetButton("Fire1"))
+        if (Input.GetButtonDown("Fire1"))
         {
-            Debug.Log("Guitar Ability");
+            Debug.Log("Guitar play");
             soundWaveArea.Play();
         }   
     }
@@ -21,9 +23,9 @@ public class GuitarAbility : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D soundArea)
     {
         // check if the Obstacle is in range
-        if (soundArea.GetComponent<Obstacle>() && soundArea.GetComponent<Animator>())
+        if (soundArea.GetComponent<Obstacle>()) //&& soundArea.GetComponent<Animator>())
         {
-            Debug.Log("Enemy in range");
+            Debug.Log("Enemy in range!!!");
             // If in range and pressed "Fire1" make box move up
             if (Input.GetButton("Fire1"))
             {
@@ -34,7 +36,7 @@ public class GuitarAbility : MonoBehaviour
             else if (Input.GetButton("Fire1") && animatorAffected.GetBool("UpMovement") == true && animatorAffected.GetBool("DownMovement") == false)
             {
                 Debug.Log("Ability hit again");
-                animatorAffected.SetBool("DownMovement",true);
+                animatorAffected.SetBool("DownMovement", true);
                 animatorAffected.SetBool("UpMovement", false);
             }
             else if (Input.GetButton("Fire1") && animatorAffected.GetBool("DownMovement") == true && animatorAffected.GetBool("UpMovement") == false)
@@ -43,6 +45,7 @@ public class GuitarAbility : MonoBehaviour
                 animatorAffected.SetBool("DownMovement", false);
                 animatorAffected.SetBool("UpMovement", false);
             }
+
         }
     }
 
@@ -51,7 +54,7 @@ public class GuitarAbility : MonoBehaviour
         // check if Obstacle get out of range
         if (soundArea.GetComponent<Obstacle>())
         {
-            Debug.Log("Enemy out of range");
+            Debug.Log("Enemy out of range!!!");
         }
     }
 
