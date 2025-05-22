@@ -97,7 +97,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -686,7 +686,28 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AssetsCemetery_0: -8850619628151499636
+      AssetsCemetery_1: 6219093209629428852
+      AssetsCemetery_10: 6835549395569668219
+      AssetsCemetery_11: 3503509653977920123
+      AssetsCemetery_12: -1774187972816839932
+      AssetsCemetery_13: -4476682178266418024
+      AssetsCemetery_14: 2054831116916955984
+      AssetsCemetery_15: 3891704829543218147
+      AssetsCemetery_16: -8299707074803329323
+      AssetsCemetery_17: 1520780198514899345
+      AssetsCemetery_18: 251450627783780383
+      AssetsCemetery_19: 8769586005133056394
+      AssetsCemetery_2: 583715083648152767
+      AssetsCemetery_20: 6221540313022959146
+      AssetsCemetery_3: -1746224654463559630
+      AssetsCemetery_4: -2124258401309724575
+      AssetsCemetery_5: -1699746355443665023
+      AssetsCemetery_6: 6836475996273642206
+      AssetsCemetery_7: -335306150529008254
+      AssetsCemetery_8: 6017661960062669452
+      AssetsCemetery_9: 2307247302268046560
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
