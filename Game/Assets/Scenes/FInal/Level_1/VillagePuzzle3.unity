@@ -3877,10 +3877,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 328067223}
     m_Modifications:
-    - target: {fileID: 1272448964977577129, guid: d29149b15fee94e4db87bdb5d261a462, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 3511152949630101260, guid: d29149b15fee94e4db87bdb5d261a462, type: 3}
       propertyPath: m_Name
       value: NPCBox
