@@ -6,40 +6,40 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/FInal/Main Menu.unity
+    path: Assets/Scenes/Final/Main Menu.unity
     guid: d8ed7f2a30a32fa4ba6a03f526242707
   - enabled: 1
-    path: Assets/Scenes/FInal/Cutscenes/Cutscene1.unity
+    path: Assets/Scenes/Final/Cutscenes/Cutscene1.unity
     guid: be8bca7d66c0a694babf2ce901059b3d
   - enabled: 1
-    path: Assets/Scenes/FInal/Level_1/VillagePuzzle1.unity
+    path: Assets/Scenes/Final/Level_1/VillagePuzzle1.unity
     guid: fbb5ea5cad201244eb67dc86420b7427
   - enabled: 1
-    path: Assets/Scenes/FInal/Level_1/VillagePuzzle2.unity
+    path: Assets/Scenes/Final/Level_1/VillagePuzzle2.unity
     guid: 71463d80642b89d4cb9236e81931687d
   - enabled: 1
-    path: Assets/Scenes/FInal/Level_1/VillagePuzzle3.unity
+    path: Assets/Scenes/Final/Level_1/VillagePuzzle3.unity
     guid: d94e834e54a338240a7ead8140e92e4c
   - enabled: 1
-    path: Assets/Scenes/FInal/Level_1/VillagePuzzle4.unity
+    path: Assets/Scenes/Final/Level_1/VillagePuzzle4.unity
     guid: 94b399b09bfaa08449dbd54f52f57b68
   - enabled: 1
-    path: Assets/Scenes/FInal/Level_1/VillagePuzzle5.unity
+    path: Assets/Scenes/Final/Level_1/VillagePuzzle5.unity
     guid: bdaec19f3aa52164097dbc69c2d4b02f
   - enabled: 1
-    path: Assets/Scenes/FInal/Level_1/VillagePuzzle6.unity
+    path: Assets/Scenes/Final/Level_1/VillagePuzzle6.unity
     guid: 52129cf5fafb51240b88dd1af0ed2929
   - enabled: 1
-    path: Assets/Scenes/FInal/Cutscenes/Cutscene2.unity
+    path: Assets/Scenes/Final/Cutscenes/Cutscene2.unity
     guid: 8e3608002787b804cb273665b17554c3
   - enabled: 1
-    path: Assets/Scenes/FInal/Cutscenes/Cutscene3.unity
+    path: Assets/Scenes/Final/Cutscenes/Cutscene3.unity
     guid: 51995458256fd0f498afd29b944d8fe5
   - enabled: 1
-    path: Assets/Scenes/FInal/Cutscenes/Cutscene4.unity
+    path: Assets/Scenes/Final/Cutscenes/Cutscene4.unity
     guid: 9abf6da3c07c4e145970344f4fa13b0c
   - enabled: 1
-    path: Assets/Scenes/FInal/Cutscenes/Cutscene5.unity
+    path: Assets/Scenes/Final/Cutscenes/Cutscene5.unity
     guid: 93e1c3f6413a1ab439028ca2f0666057
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
