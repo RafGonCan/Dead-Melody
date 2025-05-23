@@ -11,14 +11,6 @@ public class Mud : MonoBehaviour
         {
             Debug.Log("Collision with player");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            //StartCoroutine(RestartLevel());
         }
     }
-    /*
-    private IEnumerator RestartLevel() //Restart level after a delay
-    {
-        yield return new WaitForSeconds(0.5f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-    */
 }

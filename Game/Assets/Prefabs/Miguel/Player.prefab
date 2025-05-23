@@ -40,7 +40,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2853936144007433140}
-  - component: {fileID: 7973952988601320880}
   m_Layer: 9
   m_Name: AbilityThreshold
   m_TagString: Untagged
@@ -63,42 +62,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4271879865135505883}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &7973952988601320880
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3342630990580641309}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 75
 --- !u!1 &3703197516513456374
 GameObject:
   m_ObjectHideFlags: 0
@@ -5048,7 +5011,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -4216401846211310615, guid: 1992c7da4d8bc77439d7c33e530517bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5211,8 +5174,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1344
   groundCheckRadius: 2
-  jumpMaxDuration: 0.15
-  jumpGravityScale: 0.75
+  jumpMaxDuration: 0.07
+  jumpGravityScale: 1
   animator: {fileID: 3457059875702312141}
   groundCollider: {fileID: 8097176944664933060}
   airCollider: {fileID: 2758367490114125295}
@@ -5229,5 +5192,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   abilityCheckTransform: {fileID: 2853936144007433140}
-  abilityRadius: 75
+  abilityRadius: 45
   soundWaveArea: {fileID: 6508292539903930665}

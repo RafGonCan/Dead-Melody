@@ -1,9 +1,8 @@
 using UnityEngine;
-using UnityEngine.Rendering;
 
-public class Timer : MonoBehaviour
+public class NextText : MonoBehaviour
 {
-    [SerializeField, Range(0.0f,60.0f)] private float delay;
+   [SerializeField, Range(0.0f,60.0f)] private float delay;
 
     [SerializeField] GameObject nextText;
 
@@ -21,7 +20,6 @@ public class Timer : MonoBehaviour
         if (delay <= 0.0f)
         {
             delay = 0.0f;
-            Destroy(this.gameObject);
             nextText.SetActive(true);
         }
     }

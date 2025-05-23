@@ -14,7 +14,7 @@ public class NextLevel : MonoBehaviour
 
     private IEnumerator LoadNextLevel()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 7)
+        if (SceneManager.GetActiveScene().buildIndex == 11)
         {
             yield return new WaitForSeconds (0.05f);
             SceneManager.LoadScene(0);
