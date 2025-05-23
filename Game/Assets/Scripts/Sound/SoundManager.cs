@@ -61,7 +61,10 @@ public class SoundManager : MonoBehaviour
             musicSource[musicIndex].Play();
         }
 
-
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            KeyInputPlay(sfxIndex);
+        }
     }
 
     public void SFXPlay(int sfxIndex)
@@ -103,7 +106,7 @@ public class SoundManager : MonoBehaviour
         }
     }
 
-
+    
     public void PitchChanger(int index)
     {
         if (musicSource != null && index >= 0 && index < musicSource.Length && musicSource != null)
