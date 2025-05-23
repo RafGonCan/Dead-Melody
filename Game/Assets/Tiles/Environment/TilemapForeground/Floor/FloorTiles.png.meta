@@ -54,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -78,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -159,19 +159,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 32
-        height: 32
+        y: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1ce8cb1001f2ee44dbe71ffc305b6803
-      internalID: 1399116215
+      spriteID: 4f5cde6ad64b65790800000000000000
+      internalID: -7541642142940281356
       vertices: []
       indices: 
       edges: []
@@ -180,20 +180,20 @@ TextureImporter:
       name: FloorTiles_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 128
-        width: 32
-        height: 32
+        x: 16
+        y: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 945d62f97e751b2418b64a553e87e052
-      internalID: 344826700
+      spriteID: cbb0444c95ea37ab0800000000000000
+      internalID: -5011470259765113924
       vertices: []
       indices: 
       edges: []
@@ -202,10 +202,10 @@ TextureImporter:
       name: FloorTiles_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
-        width: 32
-        height: 32
+        x: 32
+        y: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,8 +214,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c70d1a2d58edcea40b8bff54174264c3
-      internalID: -892437328
+      spriteID: 12b653d52ea0e8044a6b93a5e6de2704
+      internalID: 706189461
       vertices: []
       indices: 
       edges: []
@@ -225,9 +225,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 32
-        height: 32
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,8 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87c61f037fa451244b5cc1edcdfcb512
-      internalID: -191091337
+      spriteID: 48eafcd285744fb4bb197c8894f9be31
+      internalID: -1319035310
       vertices: []
       indices: 
       edges: []
@@ -246,10 +246,10 @@ TextureImporter:
       name: FloorTiles_4
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
-        width: 32
-        height: 32
+        x: 16
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,8 +258,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f3ef92722ac8b94a9eb8e2aa2489b48
-      internalID: 1843815470
+      spriteID: 7afad051698f27748972f1ea481d43d6
+      internalID: -2021625767
       vertices: []
       indices: 
       edges: []
@@ -268,10 +268,10 @@ TextureImporter:
       name: FloorTiles_5
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
-        width: 32
-        height: 32
+        x: 32
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,8 +280,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ddfbfd2b7114344288616d032b5eb24
-      internalID: -916789590
+      spriteID: bd5d74cb7ea3e7f40a3cdac23fe9f704
+      internalID: -1258661205
       vertices: []
       indices: 
       edges: []
@@ -291,9 +291,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 32
-        height: 32
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,8 +302,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37d7a9f11223a03419775c2e5912da37
-      internalID: -94139978
+      spriteID: 84d7e25cb5f3f9e45bb0259316396a09
+      internalID: -494834533
       vertices: []
       indices: 
       edges: []
@@ -312,10 +312,10 @@ TextureImporter:
       name: FloorTiles_7
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
+        x: 16
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,8 +324,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2308454d754929647aee4a42a7b6f549
-      internalID: 873247996
+      spriteID: b1334955bd83974468b04e3942d5429d
+      internalID: -1285687250
       vertices: []
       indices: 
       edges: []
@@ -334,10 +334,10 @@ TextureImporter:
       name: FloorTiles_8
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
+        x: 32
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,8 +346,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e573521b229ac34fb17e13f0aac0c0e
-      internalID: 473191612
+      spriteID: b98e7ae5b5dda5e4ca8a909d48649327
+      internalID: -1564907460
       vertices: []
       indices: 
       edges: []
@@ -358,8 +358,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,8 +368,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 106e8b6e9fc25cf40a20b9a03fa9cfb9
-      internalID: 1497561991
+      spriteID: 9f416ad3a1a4f00439e11197679355db
+      internalID: 2116141526
       vertices: []
       indices: 
       edges: []
@@ -378,10 +378,10 @@ TextureImporter:
       name: FloorTiles_10
       rect:
         serializedVersion: 2
-        x: 32
+        x: 16
         y: 0
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,8 +390,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3d36065731fd2145b73acaccf6e0954
-      internalID: -531701499
+      spriteID: 9957f64ee368f4044a9551ab0ef20691
+      internalID: 543875903
       vertices: []
       indices: 
       edges: []
@@ -400,10 +400,10 @@ TextureImporter:
       name: FloorTiles_11
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 0
-        width: 32
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,8 +412,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff3d05cbc17ed3f4d967b9068a1303ac
-      internalID: -271592434
+      spriteID: f04844960a8095240b7440e34c97d1b1
+      internalID: -2115313137
       vertices: []
       indices: 
       edges: []
@@ -422,7 +422,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a8e4b7cb583782c449afe66b185a20cb
+    spriteID: d0af6050a9cb85f40a34dde8cf165b88
     internalID: 0
     vertices: []
     indices: 
@@ -432,18 +432,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FloorTiles_0: 1399116215
-      FloorTiles_1: 344826700
-      FloorTiles_10: -531701499
-      FloorTiles_11: -271592434
-      FloorTiles_2: -892437328
-      FloorTiles_3: -191091337
-      FloorTiles_4: 1843815470
-      FloorTiles_5: -916789590
-      FloorTiles_6: -94139978
-      FloorTiles_7: 873247996
-      FloorTiles_8: 473191612
-      FloorTiles_9: 1497561991
+      FloorTiles_0: -7541642142940281356
+      FloorTiles_1: -5011470259765113924
+      FloorTiles_10: 543875903
+      FloorTiles_11: -2115313137
+      FloorTiles_2: 706189461
+      FloorTiles_3: -1319035310
+      FloorTiles_4: -2021625767
+      FloorTiles_5: -1258661205
+      FloorTiles_6: -494834533
+      FloorTiles_7: -1285687250
+      FloorTiles_8: -1564907460
+      FloorTiles_9: 2116141526
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
