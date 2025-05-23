@@ -1,4 +1,5 @@
 using System.Collections;
+using OkapiKit.Editor;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,23 +8,16 @@ public class Mud : MonoBehaviour
 {
     [SerializeField, Range(0.0f, 60.0f)] private float delay;
 
-    [SerializeField] private ParticleSystem deathParticle;
-
-    [SerializeField] private SpriteRenderer spriteRenderer;
-
     private SoundManager soundManager;
 
-    private PlayerMovement playerMovement;
-
     private bool collided = false;
+
+    public bool deathParticlesCheck = false;
 
     private void Start()
     {
         // Find the SoundManager in the scene
         soundManager = FindAnyObjectByType<SoundManager>();
-        playerMovement = FindAnyObjectByType<PlayerMovement>();
-        deathParticle = GetComponent<ParticleSystem>();   
-        spriteRenderer = GetComponent<SpriteRenderer>();     
     }
 
     private void Update()
@@ -43,11 +37,7 @@ public class Mud : MonoBehaviour
     {
         soundManager.SFXPlay(0);
 
-        deathParticle.Play();
-
-        spriteRenderer.enabled = false;
-
-        playerMovement.enabled = false;
+        deathParticlesCheck = true;
 
         collided = true;
         /*
