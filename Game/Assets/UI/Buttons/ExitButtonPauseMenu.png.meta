@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f7abd53ec9c245a428ac58c49aef1410
+guid: 0fc7abf9bd2f1ee4db44e23d8aa13eb2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6711274303704040177
-    second: MenuButton2_0
+      213: -5818472643308673114
+    second: ExitButtonPauseMenu_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,32 +97,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -139,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MenuButton2_0
+      name: ExitButtonPauseMenu_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 7
-        width: 674
-        height: 192
+        x: 5
+        y: 12
+        width: 190
+        height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0d73812493ccd2a0800000000000000
-      internalID: -6711274303704040177
+      spriteID: 6a7224065f1a04fa0800000000000000
+      internalID: -5818472643308673114
       vertices: []
       indices: 
       edges: []
@@ -173,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      MenuButton2_0: -6711274303704040177
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
