@@ -3047,6 +3047,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a4199bcebce58a44a8e749391ea0583, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 0
+  deathParticlesCheck: 0
 --- !u!1 &1982185725
 GameObject:
   m_ObjectHideFlags: 0

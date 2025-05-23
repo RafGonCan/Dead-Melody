@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: b0ae4bba60985ea49b323de172102b09
+guid: 9ccd4e44d1d482b438556f8853ccf13e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -321551936533282509
-    second: CrochedNpcCemetery-Sheet_0
+      213: -8001188648926465833
+    second: ButtonPauseMenu_0
   - first:
-      213: 4375998481554059639
-    second: CrochedNpcCemetery-Sheet_1
+      213: -1957394483900368978
+    second: ButtonPauseMenu_1
+  - first:
+      213: 6592646043873178631
+    second: ButtonPauseMenu_2
+  - first:
+      213: -427653491340154837
+    second: ButtonPauseMenu_3
+  - first:
+      213: -3672373591614855295
+    second: ButtonPauseMenu_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -54,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,32 +84,6 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -155,45 +138,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CrochedNpcCemetery-Sheet_0
+      name: ButtonPauseMenu_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 700
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: eaa1fc663121f784c956912107d192a2
-      internalID: 1096843913
+      spriteID: 7d0b9dfd05116f090800000000000000
+      internalID: -8001188648926465833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CrochedNpcCemetery-Sheet_1
+      name: ButtonPauseMenu_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 0
+        y: 161
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 913dba2b6161eb347b0135102f893922
-      internalID: -1026225038
+      spriteID: ea73fcd6610f5d4e0800000000000000
+      internalID: -1957394483900368978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonPauseMenu_2
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 161
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704f1f6c5a8cd7b50800000000000000
+      internalID: 6592646043873178631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonPauseMenu_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28e6b95a6ba01af0800000000000000
+      internalID: -427653491340154837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButtonPauseMenu_4
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 23
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187654decab190dc0800000000000000
+      internalID: -3672373591614855295
       vertices: []
       indices: 
       edges: []
@@ -202,7 +251,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ceff95f81a7b0634480e3a90deb1a90b
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -211,9 +260,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      CrochedNpcCemetery-Sheet_0: 1096843913
-      CrochedNpcCemetery-Sheet_1: -1026225038
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
