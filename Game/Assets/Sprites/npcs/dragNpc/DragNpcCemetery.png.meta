@@ -185,12 +185,12 @@ TextureImporter:
       name: DragNpcCemetery_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 31
-        width: 29
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 32
+        width: 48
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -207,12 +207,12 @@ TextureImporter:
       name: DragNpcCemetery_1
       rect:
         serializedVersion: 2
-        x: 3
-        y: 0
-        width: 18
+        x: 48
+        y: 32
+        width: 48
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -229,12 +229,12 @@ TextureImporter:
       name: DragNpcCemetery_2
       rect:
         serializedVersion: 2
-        x: 50
-        y: 31
-        width: 23
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 32
+        width: 48
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -251,12 +251,12 @@ TextureImporter:
       name: DragNpcCemetery_3
       rect:
         serializedVersion: 2
-        x: 51
+        x: 0
         y: 0
-        width: 46
+        width: 48
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -273,12 +273,12 @@ TextureImporter:
       name: DragNpcCemetery_4
       rect:
         serializedVersion: 2
-        x: 79
-        y: 31
-        width: 14
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 0
+        width: 48
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -295,12 +295,12 @@ TextureImporter:
       name: DragNpcCemetery_5
       rect:
         serializedVersion: 2
-        x: 99
-        y: 31
-        width: 18
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 0
+        width: 48
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -317,12 +317,12 @@ TextureImporter:
       name: DragNpcCemetery_6
       rect:
         serializedVersion: 2
-        x: 99
+        x: 144
         y: 0
-        width: 46
+        width: 48
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -339,12 +339,12 @@ TextureImporter:
       name: DragNpcCemetery_7
       rect:
         serializedVersion: 2
-        x: 127
-        y: 31
-        width: 14
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 192
+        y: 0
+        width: 48
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -357,77 +357,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: DragNpcCemetery_8
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 0
-        width: 42
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13f1d173aab09fb50800000000000000
-      internalID: 6627341152349396785
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DragNpcCemetery_9
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 0
-        width: 36
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a8daa9b786fd76df0800000000000000
-      internalID: -186935219669258870
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DragNpcCemetery_10
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 0
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f8314bbc6092b5370800000000000000
-      internalID: 8312282646406501263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6d024c9066c164025b5041c58d03fe79
     internalID: 0
     vertices: []
     indices: 
@@ -439,15 +373,12 @@ TextureImporter:
     nameFileIdTable:
       DragNpcCemetery_0: 8558684639839444521
       DragNpcCemetery_1: 7351086642144510498
-      DragNpcCemetery_10: 8312282646406501263
       DragNpcCemetery_2: 4258921676843711289
       DragNpcCemetery_3: -4330198798580078662
       DragNpcCemetery_4: -9221231068611284628
       DragNpcCemetery_5: -3502051107107315719
       DragNpcCemetery_6: -5917172509578546906
       DragNpcCemetery_7: -8094573052450947635
-      DragNpcCemetery_8: 6627341152349396785
-      DragNpcCemetery_9: -186935219669258870
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
