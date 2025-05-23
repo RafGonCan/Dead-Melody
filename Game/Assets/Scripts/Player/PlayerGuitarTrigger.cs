@@ -7,6 +7,9 @@ public class PlayerGuitarTrigger : MonoBehaviour
     [SerializeField] private ParticleSystem rippleEffectPS;
 
     private int comboValue = 0;
+
+    public int ComboValue => comboValue;
+    
     private bool keyA = false;
     private bool keyS = false;
     private bool keyD = false;
@@ -22,14 +25,11 @@ public class PlayerGuitarTrigger : MonoBehaviour
     }
     public void Update()
     {
-        Input.GetKeyDown(KeyCode.A);
-        Input.GetKeyDown(KeyCode.S);
-        Input.GetKeyDown(KeyCode.D);
 
         if (Input.GetKeyDown(KeyCode.A))
         {
 
-            keyA = true; 
+            keyA = true;
 
 
         }
@@ -37,7 +37,7 @@ public class PlayerGuitarTrigger : MonoBehaviour
         {
 
             keyA = false;
-  
+
 
         }
         if (Input.GetKeyDown(KeyCode.S))
@@ -69,7 +69,7 @@ public class PlayerGuitarTrigger : MonoBehaviour
 
         }
 
-        if(keyA)
+        if (keyA)
         {
 
             Debug.Log("Combo Value 1 Key A pressed");
