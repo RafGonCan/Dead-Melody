@@ -1,22 +1,16 @@
 fileFormatVersion: 2
-guid: d3d1db3a885f98845bfa0459fdd7ceda
+guid: c189cb11d2db1451d8e695358744be7b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6536821244965541721
-    second: CemeteryBoxNpcGirl_0
+      213: 4639388208775985875
+    second: CrouchedNpc_0
   - first:
-      213: 6458422574103660994
-    second: CemeteryBoxNpcGirl_1
+      213: -1739567365425497650
+    second: CrouchedNpc_1
   - first:
-      213: 1119684350348336776
-    second: CemeteryBoxNpcGirl_2
-  - first:
-      213: 66226049634505302
-    second: CemeteryBoxNpcGirl_3
-  - first:
-      213: 4803147275480249581
-    second: CemeteryBoxNpcGirl_4
+      213: 2928485375149768325
+    second: CrouchedNpc_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -87,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -96,7 +90,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: iOS
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -121,50 +115,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CemeteryBoxNpcGirl_0
+      name: CrouchedNpc_0
       rect:
         serializedVersion: 2
         x: 0
@@ -177,16 +132,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b8b7219f1114e0544965d0a934380a0a
-      internalID: 57156393
+      spriteID: 3da7a3fcefa626040800000000000000
+      internalID: 4639388208775985875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CemeteryBoxNpcGirl_1
+      name: CrouchedNpc_1
       rect:
         serializedVersion: 2
         x: 32
@@ -199,16 +154,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3e0c929a618f5ea4b9d1387e1ca0e229
-      internalID: 1661041871
+      spriteID: ec973f0a2b0dbd7e0800000000000000
+      internalID: -1739567365425497650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CemeteryBoxNpcGirl_2
+      name: CrouchedNpc_2
       rect:
         serializedVersion: 2
         x: 64
@@ -221,54 +176,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7cf2c652617f3d54688580d092083464
-      internalID: -117783862
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CemeteryBoxNpcGirl_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a501ccf10d3e4aadb7d3647cac082ff
-      internalID: -248277998
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CemeteryBoxNpcGirl_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 828a38d6fcaef43d68aa17ed6eb80b84
-      internalID: 1402265789
+      spriteID: 58e7ab3dee114a820800000000000000
+      internalID: 2928485375149768325
       vertices: []
       indices: 
       edges: []
@@ -277,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7981cb5b5d81543469c67513c427bcbd
+    spriteID: f3a06f2870dfc44d5b20b7549d6f041a
     internalID: 0
     vertices: []
     indices: 
@@ -287,11 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CemeteryBoxNpcGirl_0: 57156393
-      CemeteryBoxNpcGirl_1: 1661041871
-      CemeteryBoxNpcGirl_2: -117783862
-      CemeteryBoxNpcGirl_3: -248277998
-      CemeteryBoxNpcGirl_4: 1402265789
+      CrouchedNpc_0: 4639388208775985875
+      CrouchedNpc_1: -1739567365425497650
+      CrouchedNpc_2: 2928485375149768325
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

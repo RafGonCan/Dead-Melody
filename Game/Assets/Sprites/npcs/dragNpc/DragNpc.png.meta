@@ -182,12 +182,12 @@ TextureImporter:
       name: DragNpc_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 31
-        width: 30
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 32
+        width: 48
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: DragNpc_1
       rect:
         serializedVersion: 2
-        x: 5
-        y: 0
-        width: 20
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 32
+        width: 48
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: DragNpc_2
       rect:
         serializedVersion: 2
-        x: 50
-        y: 31
-        width: 35
+        x: 96
+        y: 32
+        width: 48
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,12 +248,12 @@ TextureImporter:
       name: DragNpc_3
       rect:
         serializedVersion: 2
-        x: 53
+        x: 0
         y: 0
-        width: 45
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 48
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,12 +270,12 @@ TextureImporter:
       name: DragNpc_4
       rect:
         serializedVersion: 2
-        x: 101
-        y: 31
-        width: 20
+        x: 48
+        y: 0
+        width: 48
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,12 +292,12 @@ TextureImporter:
       name: DragNpc_5
       rect:
         serializedVersion: 2
-        x: 101
+        x: 96
         y: 0
-        width: 45
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 48
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,12 +314,12 @@ TextureImporter:
       name: DragNpc_6
       rect:
         serializedVersion: 2
-        x: 128
-        y: 31
-        width: 14
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 144
+        y: 0
+        width: 48
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -336,12 +336,12 @@ TextureImporter:
       name: DragNpc_7
       rect:
         serializedVersion: 2
-        x: 149
+        x: 192
         y: 0
-        width: 42
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 48
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -354,55 +354,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: DragNpc_8
-      rect:
-        serializedVersion: 2
-        x: 197
-        y: 0
-        width: 36
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4a2909f608e28bab0800000000000000
-      internalID: -4992189057777757532
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DragNpc_9
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 0
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 882c624d8e1a80510800000000000000
-      internalID: 1515639295973966472
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 584cd29568ecf479e8ea5f31592a9fd0
     internalID: 0
     vertices: []
     indices: 
@@ -420,8 +376,6 @@ TextureImporter:
       DragNpc_5: -8522583297296885096
       DragNpc_6: 8951882707205990505
       DragNpc_7: 9028763818362762294
-      DragNpc_8: -4992189057777757532
-      DragNpc_9: 1515639295973966472
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
