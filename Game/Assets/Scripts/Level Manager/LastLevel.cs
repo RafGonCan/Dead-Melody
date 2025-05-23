@@ -15,7 +15,7 @@ public class LastLevel : MonoBehaviour
     private IEnumerator LoadLastLevel()
     {
             yield return new WaitForSeconds (0.05f);
-            SceneManager.LoadScene(7);
+            SceneManager.LoadScene(8);
     
     }
 }

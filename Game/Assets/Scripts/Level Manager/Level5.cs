@@ -5,6 +5,6 @@ public class Level5 : MonoBehaviour
 {
     public void SkipLevels()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(6);
     }
 }

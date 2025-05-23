@@ -5,17 +5,24 @@ public class Timer : MonoBehaviour
 {
     [SerializeField, Range(0.0f,60.0f)] private float delay;
 
-    [SerializeField] GameObject MiniText;
+    [SerializeField] GameObject nextText;
 
+    void Start()
+    {
+        // Hide the text at the start
+        nextText.SetActive(false);
+    }
     void Update()
     {
-        delay -= Time.deltaTime; // Decrease the delay
+        // Decrease the delay timer
+        delay -= Time.deltaTime;
 
+        // Prevents the timer from going negative
         if (delay <= 0.0f)
         {
-            delay = 0.0f; // Prevents the timer from going negative
+            delay = 0.0f;
             Destroy(this.gameObject);
-            MiniText.SetActive(true);
+            nextText.SetActive(true);
         }
     }
 }
