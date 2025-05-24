@@ -163,7 +163,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -172,12 +172,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 1
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -201,7 +201,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1201,7 +1201,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -1210,7 +1210,50 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PauseMenuBackground2_0: 5703738687979867331
+      PauseMenuBackground2_1: 1988531146665918765
+      PauseMenuBackground2_10: -7525737352268831471
+      PauseMenuBackground2_11: -3276034886743110477
+      PauseMenuBackground2_12: -8624475034374064027
+      PauseMenuBackground2_13: 6225158974204771517
+      PauseMenuBackground2_14: 7621912026179075387
+      PauseMenuBackground2_15: -5118569857513785181
+      PauseMenuBackground2_16: -6236115110236363846
+      PauseMenuBackground2_17: 6056653686395682773
+      PauseMenuBackground2_18: 2816624907837248922
+      PauseMenuBackground2_19: -1257481462094545769
+      PauseMenuBackground2_2: 2708946407435156422
+      PauseMenuBackground2_20: 7787760410941681543
+      PauseMenuBackground2_21: -8004742196335847267
+      PauseMenuBackground2_22: -5348132194627447546
+      PauseMenuBackground2_23: -5192516580384996936
+      PauseMenuBackground2_24: -2938641399435660021
+      PauseMenuBackground2_25: 4133459514190600612
+      PauseMenuBackground2_26: 4068216972519837914
+      PauseMenuBackground2_27: 5976839065300602229
+      PauseMenuBackground2_28: 1730746616499197920
+      PauseMenuBackground2_29: -5522076915129346733
+      PauseMenuBackground2_3: -2905789197936309691
+      PauseMenuBackground2_30: -6437922450403483792
+      PauseMenuBackground2_31: 6635840244405098656
+      PauseMenuBackground2_32: 5240925623021384956
+      PauseMenuBackground2_33: 5427618140298837734
+      PauseMenuBackground2_34: -2360281011407921828
+      PauseMenuBackground2_35: 2858939103520857936
+      PauseMenuBackground2_36: -215502867919979375
+      PauseMenuBackground2_37: -4788924146435994001
+      PauseMenuBackground2_38: -4868680982168434165
+      PauseMenuBackground2_39: -5026990614336606011
+      PauseMenuBackground2_4: -1704102159749254638
+      PauseMenuBackground2_40: -3474651647367568341
+      PauseMenuBackground2_41: -9126168268369217345
+      PauseMenuBackground2_42: 1323270968102391838
+      PauseMenuBackground2_5: -6419390242359797859
+      PauseMenuBackground2_6: 3686830059040644619
+      PauseMenuBackground2_7: 9099030857135382286
+      PauseMenuBackground2_8: 8344401103231838620
+      PauseMenuBackground2_9: -7742878135643607897
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
