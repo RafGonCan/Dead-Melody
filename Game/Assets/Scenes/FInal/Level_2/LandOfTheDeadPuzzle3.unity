@@ -1098,6 +1098,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 758130688}
   m_CullTransparentMesh: 1
+--- !u!1 &868561492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 868561493}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &868561493
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868561492}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -191.6, y: 107.2, z: -1.2552283}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &921251489
 GameObject:
   m_ObjectHideFlags: 0
@@ -2494,9 +2525,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 300850606}
-  offset: {x: 2, y: 1}
-  followSpeed: {x: 5, y: 3}
-  deadZone: {x: 0.5, y: 0.5}
+  lookAheadDistance: 3
+  lookSmoothTime: 0.1
+  verticalSmoothTime: 0.2
+  minCameraPos: {x: 190, y: 111}
+  maxCameraPos: {x: -190, y: -111}
 --- !u!1 &1390161272
 GameObject:
   m_ObjectHideFlags: 0
@@ -5420,3 +5453,4 @@ SceneRoots:
   - {fileID: 1001756679}
   - {fileID: 1765739522}
   - {fileID: 29473739}
+  - {fileID: 868561493}
