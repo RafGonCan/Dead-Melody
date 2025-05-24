@@ -4,9 +4,9 @@ public class DeathParticleSystem : MonoBehaviour
 {
     private Mud deathCheck;
 
-    private ParticleSystem deathParticleEnable;
-
     private PlayerMovement playerMovement;
+
+    [SerializeField] private ParticleSystem deathParticleEnable;
 
     [SerializeField] private SpriteRenderer spriteRenderer;
 
