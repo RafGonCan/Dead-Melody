@@ -12,6 +12,7 @@ public class NextScene : MonoBehaviour
 
     private IEnumerator LoadNextLevel()
     {
+        // if buildIndex == x then load Main Menu
         if (SceneManager.GetActiveScene().buildIndex == 13)
         {
             yield return new WaitForSeconds(2f);

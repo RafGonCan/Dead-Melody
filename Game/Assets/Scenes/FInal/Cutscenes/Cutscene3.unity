@@ -303,6 +303,7 @@ GameObject:
   - component: {fileID: 741169701}
   - component: {fileID: 741169703}
   - component: {fileID: 741169702}
+  - component: {fileID: 741169704}
   m_Layer: 5
   m_Name: Second
   m_TagString: Untagged
@@ -428,6 +429,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 741169700}
   m_CullTransparentMesh: 1
+--- !u!114 &741169704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741169700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9560e0bf0f1e28a4bb4277933acfb561, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 2
+  nextText: {fileID: 1042299783}
 --- !u!1 &945931984
 GameObject:
   m_ObjectHideFlags: 0
@@ -439,6 +454,7 @@ GameObject:
   - component: {fileID: 945931985}
   - component: {fileID: 945931987}
   - component: {fileID: 945931986}
+  - component: {fileID: 945931988}
   m_Layer: 5
   m_Name: First
   m_TagString: Untagged
@@ -564,6 +580,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 945931984}
   m_CullTransparentMesh: 1
+--- !u!114 &945931988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945931984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9560e0bf0f1e28a4bb4277933acfb561, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 3
+  nextText: {fileID: 741169700}
 --- !u!1 &1042299783
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,14 +795,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 1c75dce0e9c6e1440880844b73f45d7a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
