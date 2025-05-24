@@ -1,5 +1,4 @@
 using System.Collections;
-using OkapiKit.Editor;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -46,9 +45,8 @@ public class Mud : MonoBehaviour
             Debug.Log("Collision with player");
             delay = 0.0f;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }*/
+        }
 
-        /*
         // Check if the player collided with the mud
         if (collision.gameObject.GetComponent<PlayerMovement>())
         {
