@@ -486,7 +486,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GuitarMiguel_0: -4591341229205360176
+      GuitarMiguel_1: -1683487188938509265
+      GuitarMiguel_10: 1140823037662682506
+      GuitarMiguel_11: 1643136425134280463
+      GuitarMiguel_12: 6757869648412184994
+      GuitarMiguel_2: -2793357697743102911
+      GuitarMiguel_3: -2774564262057402518
+      GuitarMiguel_4: 6429184203231439265
+      GuitarMiguel_5: -2488102249742984636
+      GuitarMiguel_6: 5856702001431373612
+      GuitarMiguel_7: -5639083369778838491
+      GuitarMiguel_8: -6451755608794009841
+      GuitarMiguel_9: -8804474019204634187
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
