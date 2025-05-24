@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
         rigidBodyPlayer = GetComponent<Rigidbody2D>();
         playerRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
-        groundCollisionParticles = FindAnyObjectByType<ParticleSystem>();
+        groundCollisionParticles = GetComponentInChildren<ParticleSystem>();
         initialRotation = transform.rotation;
         originalGravity = rigidBodyPlayer.gravityScale;
     }
