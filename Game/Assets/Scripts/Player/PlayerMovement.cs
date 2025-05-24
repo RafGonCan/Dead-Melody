@@ -14,14 +14,16 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField, Header("Player Visuals")] private Animator animator;
     [SerializeField] private Collider2D groundCollider;
     [SerializeField] private Collider2D airCollider;
+    [SerializeField] private ParticleSystem groundCollisionParticles;
 
     private Rigidbody2D rigidBodyPlayer;
     private SpriteRenderer playerRenderer;
     private Quaternion initialRotation;
     private bool isGround;
+    private bool gorundcollision = false;
     private float jumpTimer;
     private float originalGravity;
-    
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -29,6 +31,7 @@ public class PlayerMovement : MonoBehaviour
         rigidBodyPlayer = GetComponent<Rigidbody2D>();
         playerRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        groundCollisionParticles = FindAnyObjectByType<ParticleSystem>();
         initialRotation = transform.rotation;
         originalGravity = rigidBodyPlayer.gravityScale;
     }
@@ -40,6 +43,16 @@ public class PlayerMovement : MonoBehaviour
         airCollider.enabled = !isGround;
         VisualsUpdate();
         Jump();
+
+        if (isGround && gorundcollision)
+        {
+            groundCollisionParticles.Play();
+            gorundcollision = false;
+        }
+        else if (!isGround)
+        {
+            gorundcollision = true;
+        }
     }
 
     // Detect if the player is on the ground
@@ -103,7 +116,7 @@ public class PlayerMovement : MonoBehaviour
         else if (jumpTimer < jumpMaxDuration)
         {
             jumpTimer += Time.deltaTime;
-            
+
             // If the jump button is still pressed, apply jump gravity
             if (Input.GetButton("Jump"))
             {
@@ -123,7 +136,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rigidBodyPlayer.gravityScale = originalGravity;
         }
-        
+
         rigidBodyPlayer.linearVelocity = currentVelocity;
     }
 
