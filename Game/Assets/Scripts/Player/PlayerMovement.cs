@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer playerRenderer;
     private Quaternion initialRotation;
     private bool isGround;
-    private bool gorundcollision = false;
+    private bool groundCollision = false;
     private float jumpTimer;
     private float originalGravity;
 
@@ -44,14 +44,14 @@ public class PlayerMovement : MonoBehaviour
         VisualsUpdate();
         Jump();
 
-        if (isGround && gorundcollision)
+        if (isGround && groundCollision)
         {
             groundCollisionParticles.Play();
-            gorundcollision = false;
+            groundCollision = false;
         }
         else if (!isGround)
         {
-            gorundcollision = true;
+            groundCollision = true;
         }
     }
 

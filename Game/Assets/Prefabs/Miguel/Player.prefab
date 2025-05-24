@@ -5174,11 +5174,12 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1344
   groundCheckRadius: 2
-  jumpMaxDuration: 0.07
+  jumpMaxDuration: 0.14
   jumpGravityScale: 1
   animator: {fileID: 3457059875702312141}
   groundCollider: {fileID: 8097176944664933060}
   airCollider: {fileID: 2758367490114125295}
+  groundCollisionParticles: {fileID: 0}
 --- !u!114 &3904169668147158988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5193,4 +5194,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   abilityCheckTransform: {fileID: 2853936144007433140}
   abilityRadius: 45
+  guitarAnimation: {fileID: 3457059875702312141}
   soundWaveArea: {fileID: 6508292539903930665}

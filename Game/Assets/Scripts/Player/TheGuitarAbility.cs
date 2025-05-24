@@ -10,6 +10,7 @@ public class TheGuitarAbility : MonoBehaviour
 {
     [SerializeField] private Transform abilityCheckTransform;
     [SerializeField, Range(0f, 100.0f)] private float abilityRadius = 0f;
+    [SerializeField] private Animator guitarAnimation;
     [SerializeField] private ParticleSystem soundWaveArea;
 
     // Dictionary to store obstacles and their lifted state
@@ -65,6 +66,7 @@ public class TheGuitarAbility : MonoBehaviour
         {
             Debug.Log("Guitar play");
             soundWaveArea.Play();
+            guitarAnimation.SetTrigger("PlayGuitar");
 
             // Check if there are obstacles in range to activate the ability
             foreach (var obstacle in new List<Animator>(obstaclesInRange.Keys))
