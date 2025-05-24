@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerGuitarTrigger : MonoBehaviour
 {
-    [SerializeField] private ParticleSystem rippleEffectPS;
+    private ParticleSystem rippleEffectPS;
 
     private int comboValue = 0;
 
