@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SonicCameraFollow : MonoBehaviour
+public class CameraFollow : MonoBehaviour
 {
     [Header("Target")]
     [SerializeField] private Transform target;
@@ -32,7 +32,6 @@ public class SonicCameraFollow : MonoBehaviour
     {
         if (!target) return;
 
-        // Calculate look-ahead based on horizontal velocity
         if (Mathf.Abs(targetRb.linearVelocity.x) > 0.1f)
         {
             targetLookAhead = lookAheadDistance * Mathf.Sign(targetRb.linearVelocity.x);
@@ -42,21 +41,24 @@ public class SonicCameraFollow : MonoBehaviour
             targetLookAhead = 0f;
         }
 
-        // Smooth look-ahead transition
         currentLookAhead = Mathf.SmoothDamp(currentLookAhead, targetLookAhead, ref currentVelocity.x, lookSmoothTime);
 
-        // Smooth vertical follow
         float desiredY = target.position.y;
         float smoothedY = Mathf.SmoothDamp(transform.position.y, desiredY, ref currentVelocityY, verticalSmoothTime);
 
-        // Combine position
         Vector3 newPos = new Vector3(target.position.x + currentLookAhead, smoothedY, transform.position.z);
 
-        // Clamp camera within bounds
-        newPos.x = Mathf.Clamp(newPos.x, minCameraPos.x, maxCameraPos.x);
-        newPos.y = Mathf.Clamp(newPos.y, minCameraPos.y, maxCameraPos.y);
+        float vertExtent = Camera.main.orthographicSize;
+        float horzExtent = vertExtent * Camera.main.aspect;
 
-        // Apply position
+        float minX = minCameraPos.x + horzExtent;
+        float maxX = maxCameraPos.x - horzExtent;
+        float minY = minCameraPos.y + vertExtent;
+        float maxY = maxCameraPos.y - vertExtent;
+
+        newPos.x = Mathf.Clamp(newPos.x, minX, maxX);
+        newPos.y = Mathf.Clamp(newPos.y, minY, maxY);
+
         transform.position = newPos;
     }
 }
