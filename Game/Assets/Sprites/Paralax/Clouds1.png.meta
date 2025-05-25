@@ -11,6 +11,15 @@ TextureImporter:
   - first:
       213: 4141531533017166197
     second: Clouds1_2
+  - first:
+      213: -4275252833718128052
+    second: Clouds1_3
+  - first:
+      213: 6092900369025437298
+    second: Clouds1_4
+  - first:
+      213: 3830126972539983883
+    second: Clouds1_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 3
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -122,10 +131,10 @@ TextureImporter:
       name: Clouds1_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 351
-        width: 1151
-        height: 725
+        x: 0
+        y: 0
+        width: 1024
+        height: 576
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,55 +149,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Clouds1_1
-      rect:
-        serializedVersion: 2
-        x: 1059
-        y: 383
-        width: 579
-        height: 303
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4f3c1147d3796f280800000000000000
-      internalID: -9009847714311977996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Clouds1_2
-      rect:
-        serializedVersion: 2
-        x: 1066
-        y: 619
-        width: 827
-        height: 461
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 571319b8cfca97930800000000000000
-      internalID: 4141531533017166197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4543465f459f44c8d9652f58df2f6386
     internalID: 0
     vertices: []
     indices: 
@@ -197,7 +162,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Clouds1_0: -4262584902471009573
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
