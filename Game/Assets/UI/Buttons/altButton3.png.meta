@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: ed67e514391f1a04899dbaa8423bfc03
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2740969901743194039
+    second: altButton3_0
+  - first:
+      213: -6198000543462392039
+    second: altButton3_1
+  - first:
+      213: -6008288267997846847
+    second: altButton3_2
+  - first:
+      213: -5698695193332526860
+    second: altButton3_3
+  - first:
+      213: 8266224748330412163
+    second: altButton3_4
+  - first:
+      213: -939173533550848012
+    second: altButton3_5
+  - first:
+      213: -1584925099537617370
+    second: altButton3_6
+  - first:
+      213: -3797839761228583223
+    second: altButton3_7
+  - first:
+      213: 3504632417021573551
+    second: altButton3_8
+  - first:
+      213: 453067648176001750
+    second: altButton3_9
+  - first:
+      213: -8386096685514442789
+    second: altButton3_10
+  - first:
+      213: -5087759650145350414
+    second: altButton3_11
+  - first:
+      213: 6383105434382702602
+    second: altButton3_12
+  - first:
+      213: -2455197392017240144
+    second: altButton3_13
+  - first:
+      213: 8274196825140877524
+    second: altButton3_14
+  - first:
+      213: 4995751177208173528
+    second: altButton3_15
+  - first:
+      213: 2181697106353382589
+    second: altButton3_16
+  - first:
+      213: -8214480602230075246
+    second: altButton3_17
+  - first:
+      213: -931461533451385357
+    second: altButton3_18
+  - first:
+      213: -5336558358877398931
+    second: altButton3_19
+  - first:
+      213: -13743273627970961
+    second: altButton3_20
+  - first:
+      213: -7205340094937837040
+    second: altButton3_21
+  - first:
+      213: 1588868152730683707
+    second: altButton3_22
+  - first:
+      213: -7833170220785497097
+    second: altButton3_23
+  - first:
+      213: 9092027488391831349
+    second: altButton3_24
+  - first:
+      213: -260482751426554012
+    second: altButton3_25
+  - first:
+      213: 6884220951497256581
+    second: altButton3_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: altButton3_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 114
+        width: 29
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfb0757a91e90620800000000000000
+      internalID: 2740969901743194039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 235
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ffe3918574cf9a0800000000000000
+      internalID: -6198000543462392039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 242
+        width: 396
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c267dd47a54e9ca0800000000000000
+      internalID: -6008288267997846847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 244
+        width: 191
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f050362aea2ae0b0800000000000000
+      internalID: -5698695193332526860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_4
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 233
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388e6cdbc9787b270800000000000000
+      internalID: 8266224748330412163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_5
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 255
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7d04ea5a267f2f0800000000000000
+      internalID: -939173533550848012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_6
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 228
+        width: 6
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ea57ee407310ae0800000000000000
+      internalID: -1584925099537617370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 208
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cead16ebdc5b4bc0800000000000000
+      internalID: -3797839761228583223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_8
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 217
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9b3ec6d94f2a030800000000000000
+      internalID: 3504632417021573551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_9
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 215
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d290c420ae994600800000000000000
+      internalID: 453067648176001750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_10
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 42
+        width: 11
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7b4d7fe799e9b80800000000000000
+      internalID: -8386096685514442789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_11
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 63
+        width: 8
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc4586ed85a469b0800000000000000
+      internalID: -5087759650145350414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 82
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a081f3cc298559850800000000000000
+      internalID: 6383105434382702602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_13
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 97
+        width: 11
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bfc85beaf26dedd0800000000000000
+      internalID: -2455197392017240144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_14
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 91
+        width: 10
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8df248c2ad3d270800000000000000
+      internalID: 8274196825140877524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_15
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 79
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d39bbf1a39745540800000000000000
+      internalID: 4995751177208173528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_16
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 36
+        width: 248
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4e0b785f1f64e10800000000000000
+      internalID: 2181697106353382589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_17
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 52
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2905db91a6d400e80800000000000000
+      internalID: -8214480602230075246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_18
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 60
+        width: 31
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f580b0aba8c213f0800000000000000
+      internalID: -931461533451385357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_19
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 59
+        width: 100
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6898f7627cb0f5b0800000000000000
+      internalID: -5336558358877398931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_20
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 59
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f629a51c09c2fcff0800000000000000
+      internalID: -13743273627970961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_21
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 60
+        width: 44
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012d953fb5d710c90800000000000000
+      internalID: -7205340094937837040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_22
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 39
+        width: 45
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39817eaa2bcc0610800000000000000
+      internalID: 1588868152730683707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_23
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 63
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb89e4af2dfa4390800000000000000
+      internalID: -7833170220785497097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_24
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 39
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f9ead34de5d2e70800000000000000
+      internalID: 9092027488391831349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_25
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 39
+        width: 37
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4679a135154926cf0800000000000000
+      internalID: -260482751426554012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: altButton3_26
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 39
+        width: 43
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58eab413b7aa98f50800000000000000
+      internalID: 6884220951497256581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      altButton3_0: 2740969901743194039
+      altButton3_1: -6198000543462392039
+      altButton3_10: -8386096685514442789
+      altButton3_11: -5087759650145350414
+      altButton3_12: 6383105434382702602
+      altButton3_13: -2455197392017240144
+      altButton3_14: 8274196825140877524
+      altButton3_15: 4995751177208173528
+      altButton3_16: 2181697106353382589
+      altButton3_17: -8214480602230075246
+      altButton3_18: -931461533451385357
+      altButton3_19: -5336558358877398931
+      altButton3_2: -6008288267997846847
+      altButton3_20: -13743273627970961
+      altButton3_21: -7205340094937837040
+      altButton3_22: 1588868152730683707
+      altButton3_23: -7833170220785497097
+      altButton3_24: 9092027488391831349
+      altButton3_25: -260482751426554012
+      altButton3_26: 6884220951497256581
+      altButton3_3: -5698695193332526860
+      altButton3_4: 8266224748330412163
+      altButton3_5: -939173533550848012
+      altButton3_6: -1584925099537617370
+      altButton3_7: -3797839761228583223
+      altButton3_8: 3504632417021573551
+      altButton3_9: 453067648176001750
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
