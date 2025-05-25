@@ -81,7 +81,7 @@ public class SoundManager : MonoBehaviour
 
     public void KeyInputPlay(int keyInputIndex)
     {
-        if (KeyInput != null && KeyInput.Length > 0 && KeyInput[keyInputIndex] != null && Input.GetKeyDown(KeyCode.Space))
+        if (KeyInput != null && KeyInput.Length > 0 && KeyInput[keyInputIndex] != null && Input.GetButtonDown("Fire1"))
         {
             KeyInput[keyInputIndex].Play();
         }
